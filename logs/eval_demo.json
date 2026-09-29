@@ -1,0 +1,575 @@
+{
+  "summaries": {
+    "single_shot": {
+      "total": 10,
+      "errors": 0,
+      "sentiment_accuracy": 0.9,
+      "keyword_hit_rate_avg": 0.033,
+      "off_topic_recall": null,
+      "elapsed_sec_avg": 2.43,
+      "elapsed_sec_p50": 2.38,
+      "elapsed_sec_p95": 3.58,
+      "cited_total": 37,
+      "n_sub_questions_avg": 0
+    },
+    "agent": {
+      "total": 10,
+      "errors": 0,
+      "sentiment_accuracy": 0.6,
+      "keyword_hit_rate_avg": 0.217,
+      "off_topic_recall": null,
+      "elapsed_sec_avg": 3.91,
+      "elapsed_sec_p50": 3.85,
+      "elapsed_sec_p95": 5.58,
+      "cited_total": 50,
+      "n_sub_questions_avg": 2.7
+    }
+  },
+  "records": {
+    "single_shot": [
+      {
+        "id": 1,
+        "game": "Black Myth: Wukong",
+        "question": "Is this game worth buying?",
+        "mode": "single_shot",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "worth",
+          "buy",
+          "money"
+        ],
+        "sentiment": "positive",
+        "answer": "值得购买。多条评论都明确表示游戏物有所值,例如称其为「值得购买」[1]、「每一卢比都值得」[2]、「杰作,值得等待」[3],以及「值得一玩,你不会后悔」[4]。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.0,
+        "keywords_matched": [],
+        "keywords_missed": [
+          "worth",
+          "buy",
+          "money"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 2.44,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 2,
+        "game": "Black Myth: Wukong",
+        "question": "How is the combat system?",
+        "mode": "single_shot",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "combat",
+          "boss"
+        ],
+        "sentiment": "positive",
+        "answer": "战斗系统整体评价偏正面,多数玩家认为有趣、流畅、令人耳目一新 [1][2][4],但也有玩家指出战斗和动作排队仍需打磨 [3]。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.0,
+        "keywords_matched": [],
+        "keywords_missed": [
+          "combat",
+          "boss"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.75,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 3,
+        "game": "Black Myth: Wukong",
+        "question": "Are the boss fights well-designed?",
+        "mode": "single_shot",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "boss",
+          "fight",
+          "design"
+        ],
+        "sentiment": "positive",
+        "answer": "是的，评论普遍认为 Boss 战设计出色。有玩家称本作的 Boss 战胜过其他任何游戏，梅山（Mount Mei）的 Boss 战更是本作最佳 [1]；也有人称赞部分 Boss 战非常疯狂 [2]，还有人称连续 Boss 战配合流畅战斗体验很好 [3]，并认为这是年度游戏、Boss 战很棒 [4]。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.333,
+        "keywords_matched": [
+          "boss"
+        ],
+        "keywords_missed": [
+          "fight",
+          "design"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 2.38,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 4,
+        "game": "Black Myth: Wukong",
+        "question": "How is the story and plot?",
+        "mode": "single_shot",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "story",
+          "chapter",
+          "chinese"
+        ],
+        "sentiment": "mixed",
+        "answer": "评论对剧情评价不一：有玩家认为剧情/故事缺失，质疑其作为RPG的定位[1]；也有玩家认为世界观和故事引人入胜[4]，并建议读《西游记》以理解剧情[2]；还有玩家用调侃方式概括剧情为重复章节加反转[3]。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 0.0,
+        "keywords_matched": [],
+        "keywords_missed": [
+          "story",
+          "chapter",
+          "chinese"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 3.58,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 5,
+        "game": "Black Myth: Wukong",
+        "question": "How is the optimization on PC?",
+        "mode": "single_shot",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "optimization",
+          "performance",
+          "fps"
+        ],
+        "sentiment": "mixed",
+        "answer": "PC 优化评价两极分化:有玩家认为优化差,如称着色器优化是自 Starfield 以来最差的 [2],以及 7900xtx/7800x3d 配置在开场就崩溃、无光追仍优化糟糕 [4];也有玩家认为优化不错,称无卡顿、比多数 3A 游戏优化更好 [3],但仍有玩家认为目前需要更多优化 [1]。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.0,
+        "keywords_matched": [],
+        "keywords_missed": [
+          "optimization",
+          "performance",
+          "fps"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 2.54,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 6,
+        "game": "Black Myth: Wukong",
+        "question": "Is the game too difficult?",
+        "mode": "single_shot",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "difficult",
+          "hard",
+          "souls"
+        ],
+        "sentiment": "mixed",
+        "answer": "评论普遍认为游戏很难,但难度被视为特色而非缺点。[1] 说\"非常有趣也非常难,准备好受苦\";[2] 说\"像《只狼》一样,这游戏不适合所有人,是非常难的游戏\"。[3][4] 未直接谈难度。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.0,
+        "keywords_matched": [],
+        "keywords_missed": [
+          "difficult",
+          "hard",
+          "souls"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.95,
+        "cited_count": 2,
+        "error": null
+      },
+      {
+        "id": 7,
+        "game": "Black Myth: Wukong",
+        "question": "Are there bugs and technical issues?",
+        "mode": "single_shot",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "bugs",
+          "crash",
+          "glitches"
+        ],
+        "sentiment": "mixed",
+        "answer": "是的，评论中多次提到存在技术问题和bug。有玩家反映游戏频繁崩溃、卡顿和性能问题，尤其是在AMD平台和最新补丁后情况更糟[1][2]。也有玩家承认游戏有技术问题但整体仍值得推荐[3]，还有玩家认为游戏潜力巨大但被严重的技术问题拖累[4]。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.0,
+        "keywords_matched": [],
+        "keywords_missed": [
+          "bugs",
+          "crash",
+          "glitches"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 2.56,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 8,
+        "game": "Black Myth: Wukong",
+        "question": "How long does it take to beat the game?",
+        "mode": "single_shot",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "hours",
+          "chapter",
+          "length"
+        ],
+        "sentiment": "positive",
+        "answer": "评论中未提及具体通关时长,但多位玩家提到已通关,游玩时长分别为 31、45、70、101 小时 [1][2][3][4]。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.0,
+        "keywords_matched": [],
+        "keywords_missed": [
+          "hours",
+          "chapter",
+          "length"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 2.15,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 9,
+        "game": "Black Myth: Wukong",
+        "question": "How is the graphics and visuals?",
+        "mode": "single_shot",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "graphics",
+          "visuals",
+          "beautiful"
+        ],
+        "sentiment": "positive",
+        "answer": "评论普遍高度赞扬游戏的画面与视觉效果：有玩家称其为「见过最好的游戏画面之一」[1]，有人称赞视觉「美得令人屏息」并完美呈现中国传统美学[3]，还有人称「画面与美术设计惊艳，最佳视觉」[4]，并认为整体视觉美丽[2]。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.0,
+        "keywords_matched": [],
+        "keywords_missed": [
+          "graphics",
+          "visuals",
+          "beautiful"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 2.98,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 10,
+        "game": "Black Myth: Wukong",
+        "question": "Is it good value for money?",
+        "mode": "single_shot",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "price",
+          "value",
+          "worth"
+        ],
+        "sentiment": "positive",
+        "answer": "根据召回评论，玩家普遍认为本作物有所值：有评论称其为2024年最佳游戏，值得花费时间和金钱 [3]；也有评论认为它有年度游戏潜力，完全值得投入金钱与时间 [4]；另有玩家表示愿意掏钱并期待DLC [2]。因此从这些片段看，性价比评价是正面的。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.0,
+        "keywords_matched": [],
+        "keywords_missed": [
+          "price",
+          "value",
+          "worth"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.94,
+        "cited_count": 3,
+        "error": null
+      }
+    ],
+    "agent": [
+      {
+        "id": 1,
+        "game": "Black Myth: Wukong",
+        "question": "Is this game worth buying?",
+        "mode": "agent",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "worth",
+          "buy",
+          "money"
+        ],
+        "sentiment": "positive",
+        "answer": "综合召回片段，多数玩家认为本作值得购买。价格方面，有玩家表示「全价购买也物超所值」[1]，另有玩家称「即使全价也值得每一分钱」[2]，还有玩家给出「11/10 worth the full price」[3]，甚至有平时不买全价3A的玩家这次也破例[4]。游戏推荐方面，有玩家称其为「不错的3A大作，值得推荐」[1]，有玩家认为「gameplay 尤为出色」[2]，也有不擅长魂类游戏的老玩家表示「12小时下来非常享受」[3]，还有玩家给出8.5/10并称赞视觉表现[4]。不过也有玩家提到后期章节略显仓促[1]。整体来看，本作值得购买。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.333,
+        "keywords_matched": [
+          "worth"
+        ],
+        "keywords_missed": [
+          "buy",
+          "money"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 4.17,
+        "cited_count": 8,
+        "error": null
+      },
+      {
+        "id": 2,
+        "game": "Black Myth: Wukong",
+        "question": "How is the combat system?",
+        "mode": "agent",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "combat",
+          "boss"
+        ],
+        "sentiment": "positive",
+        "answer": "召回片段中关于战斗系统的信息有限。有评论提到「有趣的战斗机制」[1]、「扎实的战斗机制」[2]、「出色的战斗和Boss战」[3]，以及高难度但具有回报性、可通过挑战解锁新技能和物品[4]。但第二个子问题召回的片段[1][2][3][4]均未提及战斗系统。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.5,
+        "keywords_matched": [
+          "boss"
+        ],
+        "keywords_missed": [
+          "combat"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 2,
+        "elapsed_sec": 3.6,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 3,
+        "game": "Black Myth: Wukong",
+        "question": "Are the boss fights well-designed?",
+        "mode": "agent",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "boss",
+          "fight",
+          "design"
+        ],
+        "sentiment": "mixed",
+        "answer": "关于 Boss 战设计是否优秀,召回评论中存在分歧。[1] 称赞 Boss 战「epic」(史诗级),[2] 表示本作改变了其对魂类游戏(即不断在 Boss 战之间跳跃)的看法,并称其为年度最佳游戏,暗示 Boss 战设计令人满意。但 [4] 明确表示「bad boss fight」(Boss 战糟糕),[3] 则称本作是「boss simulator」(Boss 模拟器),并因缺乏探索、流程线性而给出不推荐,虽承认战斗独特且上手后有趣,但整体对 Boss 战主导的设计持负面态度。综合来看,评论对 Boss 战设计评价褒贬不一。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 0.667,
+        "keywords_matched": [
+          "boss",
+          "fight"
+        ],
+        "keywords_missed": [
+          "design"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 4.13,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 4,
+        "game": "Black Myth: Wukong",
+        "question": "How is the story and plot?",
+        "mode": "agent",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "story",
+          "chapter",
+          "chinese"
+        ],
+        "sentiment": "mixed",
+        "answer": "关于《黑神话:悟空》的剧情与故事,召回评论中存在不同看法。有玩家认为剧情引人入胜,称其为「引人入胜的世界设定和故事」[4],并提到游戏有「引人入胜的叙事」[4]以及「扣人心弦的故事」[4];也有玩家表示剧情需要先阅读《西游记》原著才能理解[2],并给出简化的剧情梗概:猴子出生、战斗、收集发光物品、进入下一章,重复五次后揭开剧情转折[3]。同时,有玩家质疑剧情存在感,发问「剧情/故事在哪里?」[1]。综合来看,剧情评价褒贬不一。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 0.0,
+        "keywords_matched": [],
+        "keywords_missed": [
+          "story",
+          "chapter",
+          "chinese"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 4.23,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 5,
+        "game": "Black Myth: Wukong",
+        "question": "How is the optimization on PC?",
+        "mode": "agent",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "optimization",
+          "performance",
+          "fps"
+        ],
+        "sentiment": "mixed",
+        "answer": "关于PC优化,评论中存在不同看法。有玩家认为优化还需改进,称「needs some more optimization atm」[1],并有人批评着色器优化差,「I haven't seen shader optimization this poor since Starfield」[2];也有玩家表示游戏很棒但性能优化可以提升,「Could use some improvement in performance optimization」[3]。另一方面,有玩家给出正面评价,称「No lag, better optimization than most triple A games」[4]。综合来看,PC优化表现褒贬不一。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.667,
+        "keywords_matched": [
+          "optimization",
+          "performance"
+        ],
+        "keywords_missed": [
+          "fps"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 2,
+        "elapsed_sec": 3.24,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 6,
+        "game": "Black Myth: Wukong",
+        "question": "Is the game too difficult?",
+        "mode": "agent",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "difficult",
+          "hard",
+          "souls"
+        ],
+        "sentiment": "positive",
+        "answer": "综合召回片段，游戏难度整体被描述为「有挑战但平衡、令人满意」，并非难以接受。有玩家表示难度恰到好处，比魂类更偏硬核动作游戏[1]；也有玩家认为难度平衡完美，战斗有趣[2]；还有玩家提到Boss战难度和强度可与《艾尔登法环》匹敌，需要耐心和学习[3]；另有玩家表示Boss战有挑战性，但游戏并未过度偏向魂类[4]。关于难度等级，有玩家指出游戏很难且没有难度选择选项[1]；有魂类新手玩家认为难度有点挑战，但通过练习可以克服[2]；也有玩家认为难度高但有回报，克服挑战能解锁新技能和物品[3]；还有玩家表示游戏开始很简单，但从每一章开始难度逐渐增加[4]。关于挑战性，玩家普遍认为游戏提供了「不错的挑战」[1][2]，有玩家认为挑战恰到好处，绝对不是魂类游戏，更像《战神2018》[3]。因此，游戏有一定难度和挑战性，但多数玩家认为难度平衡且令人满意，并非过于困难。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 0.0,
+        "keywords_matched": [],
+        "keywords_missed": [
+          "difficult",
+          "hard",
+          "souls"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 5.58,
+        "cited_count": 11,
+        "error": null
+      },
+      {
+        "id": 7,
+        "game": "Black Myth: Wukong",
+        "question": "Are there bugs and technical issues?",
+        "mode": "agent",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "bugs",
+          "crash",
+          "glitches"
+        ],
+        "sentiment": "mixed",
+        "answer": "评论中确实提到了 bug 和技术问题。有玩家报告了 CG bug，例如在二郎神初见 CG 中存在哮天犬动画或模型缺失问题 [1]；也有玩家提到隐形墙（invisible walls）的 bug 让人有些困扰 [2]。此外，有评论提到存在一些性能问题（performance problems），但整体仍然非常精致 [3]。不过也有玩家表示在自己的 3080 上运行至今没有遇到 bug [4]。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.0,
+        "keywords_matched": [],
+        "keywords_missed": [
+          "bugs",
+          "crash",
+          "glitches"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 3.85,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 8,
+        "game": "Black Myth: Wukong",
+        "question": "How long does it take to beat the game?",
+        "mode": "agent",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "hours",
+          "chapter",
+          "length"
+        ],
+        "sentiment": "positive",
+        "answer": "根据召回片段，玩家通关时长大致在50-60小时左右：有玩家表示约50小时完成主线剧情[1]，也有玩家称在约60小时游玩时间后通关并体验了多个结局[2]；此外有玩家在53小时时已通关主线并完成大部分收集[3]，还有玩家在46小时时通关[4]。综合来看，主线通关时长约在50小时上下，完整游玩可能接近60小时。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.0,
+        "keywords_matched": [],
+        "keywords_missed": [
+          "hours",
+          "chapter",
+          "length"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 3.38,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 9,
+        "game": "Black Myth: Wukong",
+        "question": "How is the graphics and visuals?",
+        "mode": "agent",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "graphics",
+          "visuals",
+          "beautiful"
+        ],
+        "sentiment": "positive",
+        "answer": "玩家普遍称赞《黑神话：悟空》的画面与视觉表现。有评论称其图形与质量疯狂、令人惊叹[1]，并称其为有史以来画面最好的游戏[4]；也有评论提到游戏拥有令人屏息、美丽的世界，环境细节丰富、角色动画流畅[1]，视觉出色[2]，艺术方向与画面令人印象深刻[4]。不过也有给出不推荐评价的玩家表示，开场画面华丽、艺术方向出色，但后续游戏内容存在问题[3]，说明视觉虽好但整体体验存在分歧。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.0,
+        "keywords_matched": [],
+        "keywords_missed": [
+          "graphics",
+          "visuals",
+          "beautiful"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 2,
+        "elapsed_sec": 3.97,
+        "cited_count": 5,
+        "error": null
+      },
+      {
+        "id": 10,
+        "game": "Black Myth: Wukong",
+        "question": "Is it good value for money?",
+        "mode": "agent",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "price",
+          "value",
+          "worth"
+        ],
+        "sentiment": "mixed",
+        "answer": "评论中未提及性价比或价格价值的具体信息。片段[1]建议购买并享受游戏,片段[3]称其为年度游戏,但均未涉及价格或价值;片段[2]为不推荐,但原因是论坛封禁而非性价比;片段[4]仅提及在线人数。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 0.0,
+        "keywords_matched": [],
+        "keywords_missed": [
+          "price",
+          "value",
+          "worth"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 2.98,
+        "cited_count": 2,
+        "error": null
+      }
+    ]
+  }
+}

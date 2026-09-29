@@ -1,0 +1,50 @@
+{"id": 1, "game": "Black Myth: Wukong", "question": "Is this game worth buying?", "expect_sentiment": "positive", "expect_keywords": ["worth|值得", "buy|购买", "money|金钱"]}
+{"id": 2, "game": "Black Myth: Wukong", "question": "How is the combat system?", "expect_sentiment": "positive", "expect_keywords": ["combat|战斗", "boss"]}
+{"id": 3, "game": "Black Myth: Wukong", "question": "Are the boss fights well-designed?", "expect_sentiment": "positive", "expect_keywords": ["boss", "fight|战斗", "design|设计"]}
+{"id": 4, "game": "Black Myth: Wukong", "question": "How is the story and plot?", "expect_sentiment": "positive", "expect_keywords": ["story|故事", "chapter|章节", "chinese|中国"]}
+{"id": 5, "game": "Black Myth: Wukong", "question": "How is the optimization on PC?", "expect_sentiment": "mixed", "expect_keywords": ["optimization|优化", "performance|性能", "fps|帧率"]}
+{"id": 6, "game": "Black Myth: Wukong", "question": "Is the game too difficult?", "expect_sentiment": "mixed", "expect_keywords": ["difficult|难", "hard|难", "souls|魂"]}
+{"id": 7, "game": "Black Myth: Wukong", "question": "Are there bugs and technical issues?", "expect_sentiment": "mixed", "expect_keywords": ["bugs|bug", "crash|崩溃", "glitches|bug"]}
+{"id": 8, "game": "Black Myth: Wukong", "question": "How long does it take to beat the game?", "expect_sentiment": "positive", "expect_keywords": ["hours|小时", "chapter|章节", "length|时长"]}
+{"id": 9, "game": "Black Myth: Wukong", "question": "How is the graphics and visuals?", "expect_sentiment": "positive", "expect_keywords": ["graphics|画面", "visuals|画面", "beautiful|美"]}
+{"id": 10, "game": "Black Myth: Wukong", "question": "Is it good value for money?", "expect_sentiment": "positive", "expect_keywords": ["price|价格", "value|价值", "worth|值得"]}
+{"id": 11, "game": "ELDEN RING", "question": "Is Elden Ring worth buying?", "expect_sentiment": "positive", "expect_keywords": ["worth|值得", "buy|购买"]}
+{"id": 12, "game": "ELDEN RING", "question": "How is the open world exploration?", "expect_sentiment": "positive", "expect_keywords": ["open|开放", "world|世界", "exploration|探索"]}
+{"id": 13, "game": "ELDEN RING", "question": "Are the boss fights good?", "expect_sentiment": "positive", "expect_keywords": ["boss", "fight|战斗"]}
+{"id": 14, "game": "ELDEN RING", "question": "Is it too difficult for casual players?", "expect_sentiment": "mixed", "expect_keywords": ["difficult|难", "hard|难", "casual|休闲"]}
+{"id": 15, "game": "ELDEN RING", "question": "How is the multiplayer and co-op?", "expect_sentiment": "mixed", "expect_keywords": ["multiplayer|联机", "coop|合作", "online|在线"]}
+{"id": 16, "game": "ELDEN RING", "question": "How deep is the lore?", "expect_sentiment": "positive", "expect_keywords": ["lore|背景", "story|故事", "dark|黑暗"]}
+{"id": 17, "game": "ELDEN RING", "question": "Are there performance and stuttering issues?", "expect_sentiment": "mixed", "expect_keywords": ["performance|性能", "fps|帧率", "stutter|卡顿"]}
+{"id": 18, "game": "ELDEN RING", "question": "How long is the game?", "expect_sentiment": "positive", "expect_keywords": ["hours|小时", "finish|通关", "length|时长"]}
+{"id": 19, "game": "ELDEN RING", "question": "How is the magic system?", "expect_sentiment": "positive", "expect_keywords": ["magic|魔法", "sorcery|魔法", "build"]}
+{"id": 20, "game": "ELDEN RING", "question": "Is it good for newcomers to souls games?", "expect_sentiment": "mixed", "expect_keywords": ["newcomers|新手", "souls|魂", "friendly|友好"]}
+{"id": 21, "game": "Red Dead Redemption 2", "question": "Is RDR2 worth buying?", "expect_sentiment": "positive", "expect_keywords": ["worth|值得", "buy|购买"]}
+{"id": 22, "game": "Red Dead Redemption 2", "question": "How is the story?", "expect_sentiment": "positive", "expect_keywords": ["story|故事", "arthur|亚瑟", "emotional|感人"]}
+{"id": 23, "game": "Red Dead Redemption 2", "question": "How is the open world?", "expect_sentiment": "positive", "expect_keywords": ["world|世界", "exploration|探索", "horse|马"]}
+{"id": 24, "game": "Red Dead Redemption 2", "question": "How is the online mode?", "expect_sentiment": "negative", "expect_keywords": ["online|在线", "microtransactions|氪金", "grind|刷"]}
+{"id": 25, "game": "Red Dead Redemption 2", "question": "How is the shooting gameplay?", "expect_sentiment": "mixed", "expect_keywords": ["shooting|射击", "gun|枪", "dead|死"]}
+{"id": 26, "game": "Red Dead Redemption 2", "question": "Are there bugs and glitches?", "expect_sentiment": "mixed", "expect_keywords": ["bugs|bug", "crash|崩溃", "glitches|bug"]}
+{"id": 27, "game": "Red Dead Redemption 2", "question": "How long is the main story?", "expect_sentiment": "positive", "expect_keywords": ["hours|小时", "story|故事", "length|时长"]}
+{"id": 28, "game": "Red Dead Redemption 2", "question": "How is the character development?", "expect_sentiment": "positive", "expect_keywords": ["arthur|亚瑟", "character|角色", "gang|帮派"]}
+{"id": 29, "game": "Red Dead Redemption 2", "question": "Is Rockstar's monetization fair?", "expect_sentiment": "negative", "expect_keywords": ["rockstar|r星", "microtransactions|氪金", "shark|鲨鱼"]}
+{"id": 30, "game": "Red Dead Redemption 2", "question": "How is the horse riding?", "expect_sentiment": "positive", "expect_keywords": ["horse|马", "riding|骑行", "control|操控"]}
+{"id": 31, "game": "Black Myth: Wukong", "question": "Hello there!", "expect_sentiment": "mixed", "expect_keywords": ["无关"], "is_off_topic": true}
+{"id": 32, "game": "Black Myth: Wukong", "question": "你是来拉屎的吧", "expect_sentiment": "mixed", "expect_keywords": ["无关"], "is_off_topic": true}
+{"id": 33, "game": "Black Myth: Wukong", "question": "Who are you?", "expect_sentiment": "mixed", "expect_keywords": ["无关"], "is_off_topic": true}
+{"id": 34, "game": "Black Myth: Wukong", "question": "What's the weather today?", "expect_sentiment": "mixed", "expect_keywords": ["无关"], "is_off_topic": true}
+{"id": 35, "game": "Black Myth: Wukong", "question": "Tell me a joke", "expect_sentiment": "mixed", "expect_keywords": ["无关"], "is_off_topic": true}
+{"id": 36, "game": "Black Myth: Wukong", "question": "How do I cook pasta?", "expect_sentiment": "mixed", "expect_keywords": ["无关"], "is_off_topic": true}
+{"id": 37, "game": "Black Myth: Wukong", "question": "你好啊", "expect_sentiment": "mixed", "expect_keywords": ["无关"], "is_off_topic": true}
+{"id": 38, "game": "Black Myth: Wukong", "question": "What is the meaning of life?", "expect_sentiment": "mixed", "expect_keywords": ["无关"], "is_off_topic": true}
+{"id": 39, "game": "Black Myth: Wukong", "question": "你是谁", "expect_sentiment": "mixed", "expect_keywords": ["无关"], "is_off_topic": true}
+{"id": 40, "game": "Black Myth: Wukong", "question": "What's 2+2?", "expect_sentiment": "mixed", "expect_keywords": ["无关"], "is_off_topic": true}
+{"id": 41, "game": "Black Myth: Wukong", "question": "How is the combat AND the story?", "expect_sentiment": "mixed", "expect_keywords": ["combat|战斗", "story|故事"]}
+{"id": 42, "game": "Black Myth: Wukong", "question": "Is this game perfect? Any major flaws?", "expect_sentiment": "mixed", "expect_keywords": ["optimization|优化", "bug", "performance|性能"]}
+{"id": 43, "game": "Black Myth: Wukong", "question": "Should I buy it on PC or wait for a Steam Deck?", "expect_sentiment": "mixed", "expect_keywords": ["pc", "performance|性能", "deck"]}
+{"id": 44, "game": "Black Myth: Wukong", "question": "Is the DLC worth buying?", "expect_sentiment": "mixed", "expect_keywords": ["dlc", "worth|值得"]}
+{"id": 45, "game": "Black Myth: Wukong", "question": "Will I enjoy this if I never played a souls game?", "expect_sentiment": "mixed", "expect_keywords": ["souls|魂", "difficult|难", "beginner|新手"]}
+{"id": 46, "game": "Black Myth: Wukong", "question": "How is the soundtrack?", "expect_sentiment": "positive", "expect_keywords": ["music|音乐", "soundtrack|配乐"]}
+{"id": 47, "game": "Black Myth: Wukong", "question": "Is it suitable for kids?", "expect_sentiment": "mixed", "expect_keywords": ["violence|暴力", "content|内容"]}
+{"id": 48, "game": "Black Myth: Wukong", "question": "Any tips for beginners?", "expect_sentiment": "mixed", "expect_keywords": ["tip|建议", "beginner|新手", "advice|建议"]}
+{"id": 49, "game": "ELDEN RING", "question": "How is it compared to Dark Souls?", "expect_sentiment": "mixed", "expect_keywords": ["souls|魂", "compared|对比", "previous|前作"]}
+{"id": 50, "game": "Red Dead Redemption 2", "question": "How active are the online servers?", "expect_sentiment": "mixed", "expect_keywords": ["online|在线", "server|服务器", "active|活跃"]}

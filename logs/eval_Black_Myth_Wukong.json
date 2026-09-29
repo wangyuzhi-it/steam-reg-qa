@@ -1,0 +1,278 @@
+{
+  "summary": {
+    "n_records": 5,
+    "sentiment_dist": {
+      "positive": 3,
+      "mixed": 2
+    },
+    "confidence_dist": {
+      "high": 4,
+      "low": 1
+    },
+    "elapsed_sec_avg": 4.3,
+    "elapsed_sec_p95": 5.49,
+    "cited_total": 29,
+    "cited_valid": 29,
+    "snippet_match_rate": 1.0,
+    "n_sub_questions_avg": 2.6
+  },
+  "records": [
+    {
+      "question": "Is this game worth buying?",
+      "elapsed_sec": 4.61,
+      "sub_questions": [
+        "game review score",
+        "game price value",
+        "game playtime recommendation"
+      ],
+      "final": {
+        "answer": "综合来看，这款游戏值得购买。价格方面，多位玩家认为即使全价购买也物有所值，称「每一分钱都值」[1]、「值得你花的每一分钱，即使全价」[2]、「11/10 值得全价」[3]。游戏时长方面，有玩家用38小时并准备进入二周目给出10/10[1]，也有玩家在约60小时通关多结局后给出10/10并称其为GOTY[4]。不过也有玩家在56小时后仍给出不推荐，表示虽然花了60美元不想浪费所以继续玩完，但对游戏本可以成为的样子非常失望[3]。整体评价以正面为主，但存在个别负面声音。",
+        "cited_reviews": [
+          {
+            "index": 1,
+            "snippet": "It's been a while since buying a game at full price! Every penny is hell'ya worth",
+            "reason": "支持价格物有所值",
+            "original_index": 2108
+          },
+          {
+            "index": 2,
+            "snippet": "Worth for every pennies you spend in this game even at full price.",
+            "reason": "支持全价购买值得",
+            "original_index": 2099
+          },
+          {
+            "index": 3,
+            "snippet": "Best game I've played in years.11/10 worth the full price",
+            "reason": "支持全价购买值得",
+            "original_index": 228
+          },
+          {
+            "index": 4,
+            "snippet": "Review after beating the game with multiple endings around 60 hours playtime. ... 10/10 GOTY !!",
+            "reason": "支持游戏时长与整体推荐",
+            "original_index": 446
+          },
+          {
+            "index": 3,
+            "snippet": "I paid $60 for the game and I don't want that money to go to waste, so I'm going to finish it. Still VERY disappointed",
+            "reason": "提供负面/矛盾观点",
+            "original_index": 228
+          }
+        ],
+        "sentiment": "positive",
+        "confidence": "high"
+      },
+      "n_sub_questions": 3
+    },
+    {
+      "question": "How is the optimization and performance?",
+      "elapsed_sec": 5.13,
+      "sub_questions": [
+        "optimization performance",
+        "frame rate stability",
+        "hardware requirements"
+      ],
+      "final": {
+        "answer": "关于优化与性能，玩家反馈褒贬不一。部分玩家认为优化不足，需要进一步改进，例如有玩家表示「needs some more optimization atm」[1]，还有人批评着色器优化极差「I haven't seen shader optimization this poor since Starfield」[2]，以及「Could use some improvement in performance optimization」[3]。帧率稳定性方面，有玩家提到关闭画面抖动后仍会头痛，并因优化问题不推荐[1]，也有人提到存在性能问题但游戏仍有趣[2]。硬件需求方面，有玩家反映即使电脑远超推荐配置，游戏仍崩溃无法进入主菜单[3]，同时也有玩家指出UE5即使在高端硬件上也会有问题[1]。不过，也有正面评价称「No lag, better optimization than most triple A games」[4]，以及在Legion Go上运行良好、无严重卡帧[3]。总体而言，优化和性能表现存在争议，既有严重问题也有流畅运行的正面反馈。",
+        "cited_reviews": [
+          {
+            "index": 1,
+            "snippet": "needs some more optimization atm but very fun",
+            "reason": "指出优化需要改进",
+            "original_index": 931
+          },
+          {
+            "index": 2,
+            "snippet": "I haven't seen shader optimization this poor since Starfield",
+            "reason": "批评着色器优化差",
+            "original_index": 1115
+          },
+          {
+            "index": 3,
+            "snippet": "Could use some improvement in performance optimization.",
+            "reason": "认为性能优化需改进",
+            "original_index": 2003
+          },
+          {
+            "index": 4,
+            "snippet": "No lag, better optimization than most triple A games.",
+            "reason": "正面评价优化好、无延迟",
+            "original_index": 1289
+          },
+          {
+            "index": 1,
+            "snippet": "I would not recommend the game base on the optimization and even though I turn off the screen shaking, it still manages to give me headache",
+            "reason": "因优化问题不推荐，帧率稳定性差",
+            "original_index": 931
+          },
+          {
+            "index": 2,
+            "snippet": "Besides some performance issues the game is quite fun for me.",
+            "reason": "提到性能问题但游戏有趣",
+            "original_index": 1115
+          },
+          {
+            "index": 3,
+            "snippet": "This runs ok on Legion Go too! I can play without major frame freezing",
+            "reason": "在Legion Go上运行良好，无严重卡帧",
+            "original_index": 2003
+          },
+          {
+            "index": 3,
+            "snippet": "I have over an hour played in this game and I have not even made it to the main menu once. Crashes my entire PC anytime that I try to launch the game. My PC is well above the recommended requirements to play.",
+            "reason": "硬件远超推荐配置仍崩溃",
+            "original_index": 2003
+          },
+          {
+            "index": 1,
+            "snippet": "UE5 will always be a problem even on higher hardware( XTX and 5800x3D) but it is what it is.",
+            "reason": "高端硬件上UE5仍有问题",
+            "original_index": 931
+          }
+        ],
+        "sentiment": "mixed",
+        "confidence": "high"
+      },
+      "n_sub_questions": 3
+    },
+    {
+      "question": "Is the combat fun?",
+      "elapsed_sec": 3.93,
+      "sub_questions": [
+        "combat gameplay fun",
+        "combat mechanics enjoyment",
+        "combat system review"
+      ],
+      "final": {
+        "answer": "战斗是有趣的。多条评论提到战斗有趣或机制令人享受,例如 [1] 称「Gameplay fun as ♥♥♥♥」,[2] 提到「fun combat」,[4] 表示「only the combat is fun」;在战斗机制方面,[1] 提到「interesting combat mechanics」,[2] 提到「solid combat mechanics」,[3] 表示「Monke goes brrrrr and I get enjoyment」,[4] 提到高难度但「rewarding」。不过也有评论 [4] 认为游戏整体像《艾尔登法环》,只有战斗有趣,带有一定保留。",
+        "cited_reviews": [
+          {
+            "index": 1,
+            "snippet": "Gameplay fun as ♥♥♥♥",
+            "reason": "直接说明玩法/战斗有趣",
+            "original_index": 1712
+          },
+          {
+            "index": 2,
+            "snippet": "fun combat",
+            "reason": "直接说明战斗有趣",
+            "original_index": 1310
+          },
+          {
+            "index": 4,
+            "snippet": "its like elden ring. only the combat is fun.",
+            "reason": "说明只有战斗有趣,带有保留",
+            "original_index": 1337
+          },
+          {
+            "index": 1,
+            "snippet": "interesting combat mechanics",
+            "reason": "说明战斗机制有趣",
+            "original_index": 1712
+          },
+          {
+            "index": 2,
+            "snippet": "solid combat mechanics",
+            "reason": "说明战斗机制扎实",
+            "original_index": 1310
+          },
+          {
+            "index": 3,
+            "snippet": "Monke goes brrrrr and I get enjoyment",
+            "reason": "表达从战斗/玩法中获得享受",
+            "original_index": 1374
+          },
+          {
+            "index": 4,
+            "snippet": "The difficulty level is high, but it’s also rewarding",
+            "reason": "说明战斗难度高但有回报",
+            "original_index": 1337
+          }
+        ],
+        "sentiment": "positive",
+        "confidence": "high"
+      },
+      "n_sub_questions": 3
+    },
+    {
+      "question": "How long is the story?",
+      "elapsed_sec": 3.43,
+      "sub_questions": [
+        "story length",
+        "gameplay duration"
+      ],
+      "final": {
+        "answer": "评论中未明确提及故事的具体时长。有玩家提到游戏长度「不太长也不太短」[1],并认为章节式结构让每个关卡更易掌控[1];也有玩家在游玩39小时后表示游戏长度恰到好处[4]。但均未给出故事时长的具体数字。",
+        "cited_reviews": [
+          {
+            "index": 1,
+            "snippet": "I like the pacing and the length of the game. Not too long yet not too short.",
+            "reason": "直接评价游戏长度,但未给出具体时长",
+            "original_index": 1459
+          },
+          {
+            "index": 4,
+            "snippet": "game length, the levels, the lore are all that describe this great game",
+            "reason": "提及游戏长度是优点之一,但无具体时长",
+            "original_index": 1315
+          }
+        ],
+        "sentiment": "positive",
+        "confidence": "low"
+      },
+      "n_sub_questions": 2
+    },
+    {
+      "question": "Are there bugs and glitches?",
+      "elapsed_sec": 4.4,
+      "sub_questions": [
+        "bugs",
+        "glitches"
+      ],
+      "final": {
+        "answer": "评论对bug和glitch的反馈存在分歧。部分玩家表示游戏几乎没有bug或glitch，运行稳定，如[1]称「no bugs/glitches and stable FPS」；但另一些玩家报告了各种问题，包括轻微视觉bug[1]、视觉和镜头bug[3]、性能问题、glitch、卡顿和掉帧[2]、地图glitch导致卡住[3]，以及需要未来更新修复bug和优化[2]。总体来看，bug和glitch确实存在，但程度和体验因人而异。",
+        "cited_reviews": [
+          {
+            "index": 1,
+            "snippet": "Proper 2024 game with no bugs/glitches and stable FPS",
+            "reason": "表示游戏没有bug和glitch，运行稳定",
+            "original_index": 818
+          },
+          {
+            "index": 2,
+            "snippet": "Still Unoptimised you;ll face performance issue, Glitches, Stuttres, and framedrops everytime",
+            "reason": "报告了glitch、卡顿和掉帧等性能问题",
+            "original_index": 0
+          },
+          {
+            "index": 3,
+            "snippet": "Some map glitches where you get stuck or enemies corner you and you're stuck",
+            "reason": "提到地图glitch导致玩家卡住",
+            "original_index": 847
+          },
+          {
+            "index": 1,
+            "snippet": "Very minor visual bugs are the only issue Ive noticed",
+            "reason": "提到存在轻微视觉bug",
+            "original_index": 818
+          },
+          {
+            "index": 3,
+            "snippet": "few visual and camera bugs",
+            "reason": "提到存在少量视觉和镜头bug",
+            "original_index": 847
+          },
+          {
+            "index": 2,
+            "snippet": "We need bugs repairing and game playing optimization in future updates",
+            "reason": "指出需要修复bug和优化",
+            "original_index": 0
+          }
+        ],
+        "sentiment": "mixed",
+        "confidence": "high"
+      },
+      "n_sub_questions": 2
+    }
+  ]
+}

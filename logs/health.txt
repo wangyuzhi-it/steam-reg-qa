@@ -1,0 +1,1 @@
+{"games":["Black Myth: Wukong","ELDEN RING","Red Dead Redemption 2"],"llm_ready":true,"model":"deepseek-chat","ok":true,"provider":"deepseek"}

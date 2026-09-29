@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <title>Steam 评论 RAG 问答 - 多游戏版</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: -apple-system, "Segoe UI", sans-serif; max-width: 920px; margin: 32px auto; padding: 0 16px; }
+    header { border-bottom: 1px solid #8884; padding-bottom: 8px; margin-bottom: 16px; }
+    .pill { display: inline-block; padding: 2px 8px; border-radius: 999px; background: #8883; font-size: 12px; margin-left: 6px; }
+    .pill.bad { background: #c4454d33; }
+    .pill.good { background: #4caf5033; }
+    textarea, select, input { font-size: 14px; padding: 6px; }
+    textarea { width: 100%; min-height: 80px; }
+    button { padding: 8px 16px; font-size: 14px; cursor: pointer; }
+    .row { display: flex; gap: 8px; align-items: center; margin: 8px 0 16px; flex-wrap: wrap; }
+    .hit { border: 1px solid #8884; border-radius: 6px; padding: 10px; margin: 8px 0; font-size: 13px; }
+    .hit small { color: #888; }
+    .answer { background: #4a90e233; padding: 12px; border-radius: 6px; margin: 12px 0; white-space: pre-wrap; }
+    pre { background: #8882; padding: 8px; border-radius: 4px; overflow-x: auto; }
+    details { margin: 6px 0; }
+    .err { color: #c4454d; }
+    .step { border-left: 3px solid #4a90e2; padding-left: 10px; margin: 8px 0; }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>Steam 评论 RAG 问答(多游戏 + ReAct Agent)</h2>
+    <div>
+      provider=<strong>{{ provider }}</strong>
+      <span class="pill {% if llm_ready %}good{% else %}bad{% endif %}">
+        {% if llm_ready %}ready{% else %}key missing{% endif %}
+      </span>
+    </div>
+  </header>
+
+  <div class="row">
+    <label>游戏
+      <select id="game">
+        {% for g in games %}
+          <option value="{{ g }}" {% if g == default_game %}selected{% endif %}>{{ g }}</option>
+        {% endfor %}
+      </select>
+    </label>
+    <label>top_k <input id="k" type="number" value="5" min="1" max="10" style="width:64px"></label>
+    <label><input type="checkbox" id="agent" checked> Agent</label>
+    <label title="多调 1 次 LLM 自检,不够就追加检索"><input type="checkbox" id="reflect"> Reflect</label>
+    <button onclick="ask()">提问</button>
+    <button onclick="clearCache()" style="font-size:12px">清缓存</button>
+    <span id="status"></span>
+    <span id="cacheinfo" style="margin-left:auto;font-size:12px;color:#888"></span>
+  </div>
+
+  <textarea id="q" placeholder="例如:这游戏值不值得买?优化怎么样?剧情如何?"></textarea>
+
+  <div id="result"></div>
+
+  <script>
+    async function ask() {
+      const q = document.getElementById('q').value.trim();
+      const game = document.getElementById('game').value;
+      const k = document.getElementById('k').value;
+      const agent = document.getElementById('agent').checked;
+      const reflect = document.getElementById('reflect').checked;
+      const status = document.getElementById('status');
+      const out = document.getElementById('result');
+      if (!q) { status.textContent = '请先输入问题'; return; }
+      let label = agent ? 'Agent 拆解 + 多轮检索 + 综合' : '单轮检索 + 生成';
+      if (reflect) label += ' + 自检追加检索';
+      status.textContent = label + '...';
+      out.innerHTML = '';
+
+      let resp;
+      try {
+        resp = await fetch('/ask', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            question: q, game: game,
+            top_k: Number(k), agent: agent, reflect: reflect
+          })
+        });
+      } catch (e) {
+        status.innerHTML = `<span class="err">网络错误(请求失败): ${e.message}</span>`;
+        return;
+      }
+
+      // 后端保证 /ask 永远返回 JSON,但万一返回了 HTML(nginx 502/反向代理错误页),
+      // 给用户更友好的提示而不是 SyntaxError。
+      const text = await resp.text();
+      let data;
+      try {
+        data = JSON.parse(text);
+      } catch (e) {
+        const preview = text.slice(0, 120).replace(/</g, '&lt;');
+        status.innerHTML = `<span class="err">服务器返回非 JSON(status=${resp.status}):<br><code style="font-size:11px">${preview}</code></span>`;
+        return;
+      }
+
+      if (!resp.ok) {
+        status.innerHTML = `<span class="err">${data.error || ('HTTP ' + resp.status)}</span>`;
+        return;
+      }
+
+      // 空子问题 = 与游戏无关
+      if (data.mode === 'agent' && Array.isArray(data.sub_questions) && data.sub_questions.length === 0) {
+        status.innerHTML = `<span class="err">off-topic: 与游戏评论无关</span>`;
+        out.innerHTML = `<div class="answer">${data.answer.answer}</div>`;
+        return;
+      }
+
+      status.textContent = `done, mode=${data.mode}, sentiment=${data.answer.sentiment}, confidence=${data.answer.confidence}`;
+      if (data.cached) status.textContent += ' (⚡ 缓存命中)';
+      const ci = document.getElementById('cacheinfo');
+      if (data.cache_stats) {
+        ci.textContent = `cache: ${data.cache_stats.hits}/${data.cache_stats.hits + data.cache_stats.misses} hits (${Math.round(data.cache_stats.hit_rate*100)}%), size=${data.cache_stats.size}`;
+      }
+      if (data.reflect && Array.isArray(data.sub_questions) && data.sub_questions.length > 3) {
+        status.textContent += ` + reflection (${data.sub_questions.length} subs)`;
+      }
+      let html = '';
+      if (data.mode === 'agent' && data.sub_questions) {
+        html += `<details><summary>Agent 拆解: ${data.sub_questions.length} 个子问题</summary><ol>`;
+        for (const sq of data.sub_questions) html += `<li>${sq}</li>`;
+        html += '</ol></details>';
+        for (const s of data.steps) {
+          html += `<div class="step"><strong>子问题:</strong>${s.sub_question}<br>`;
+          for (const h of s.hits) {
+            html += `<div class="hit"><small>score=${h.score.toFixed(3)} rec=${h.recommendation} hours=${h.hours_played.toFixed(1)}</small><div>${h.review}</div></div>`;
+          }
+          html += '</div>';
+        }
+      } else {
+        html += '<h4>检索召回</h4>';
+        for (const h of data.hits || []) {
+          html += `<div class="hit"><small>#${h.index} score=${h.score.toFixed(3)} rec=${h.recommendation} hours=${h.hours_played.toFixed(1)}</small><div>${h.review}</div></div>`;
+        }
+      }
+      html += `<div class="answer"><strong>${data.answer.answer}</strong></div>`;
+      html += '<h4>引用</h4>';
+      for (const c of data.answer.cited_reviews || []) {
+        html += `<div class="hit"><small>[${c.index}] original=${c.original_index ?? '?'} ${c.reason}</small><div>${c.snippet}</div></div>`;
+      }
+      html += '<h4>原始 JSON</h4><pre>' + JSON.stringify(data.answer, null, 2) + '</pre>';
+      out.innerHTML = html;
+    }
+    document.getElementById('q').addEventListener('keydown', e => {
+      if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) ask();
+    });
+
+    async function clearCache() {
+      try {
+        const r = await fetch('/cache/clear', { method: 'POST' });
+        const j = await r.json();
+        const ci = document.getElementById('cacheinfo');
+        ci.textContent = `cache cleared: ${j.hits}/${j.hits + j.misses}, size=${j.size}`;
+        document.getElementById('status').textContent = '已清缓存';
+      } catch (e) {
+        document.getElementById('status').textContent = '清缓存失败: ' + e.message;
+      }
+    }
+
+    // 启动时拉一次缓存状态
+    fetch('/cache/stats').then(r => r.json()).then(j => {
+      const ci = document.getElementById('cacheinfo');
+      ci.textContent = `cache: ${j.hits}/${j.hits + j.misses} hits, size=${j.size}/${j.max_size}`;
+    }).catch(() => {});
+  </script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+﻿GAME                            N   POS%  top 15 words (n>=20)
+
+=== Black Myth: Wukong (n=2194, pos=90%) ===
+     970  boss
+     916  some
+     779  story
+     763  bosses
+     750  wukong
+     743  combat
+     708  more
+     653  your
+     520  souls
+     508  even
+     463  myth
+     459  black
+     447  chapter
+     434  much
+     421  gameplay
+     409  chinese
+     405  many
+     377  graphics
+     376  first
+     375  every
+
+=== ELDEN RING (n=2641, pos=92%) ===
+    1760  world
+    1679  souls
+    1582  elden
+    1532  ring
+    1264  your
+    1257  some
+    1156  more
+    1019  open
+    1016  bosses
+     946  boss
+     847  even
+     797  dark
+     724  much
+     670  most
+     658  first
+     641  every
+     640  still
+     638  hours
+     612  other
+     610  many
+
+=== Red Dead Redemption 2 (n=4154, pos=77%) ===
+    2749  story
+    1997  rockstar
+    1899  your
+    1507  world
+    1492  online
+    1429  dead
+    1279  some
+    1190  more
+    1187  even
+    1009  redemption
+     924  much
+     878  hours
+     844  every
+     818  arthur
+     799  gameplay
+     793  well
+     761  because
+     759  experience
+     734  other
+     727  horse

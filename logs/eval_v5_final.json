@@ -1,0 +1,3993 @@
+{
+  "summaries": {
+    "single_shot": {
+      "total": 50,
+      "errors": 2,
+      "sentiment_accuracy": 0.58,
+      "keyword_hit_rate_avg": 0.447,
+      "off_topic_recall": 0.2,
+      "elapsed_sec_avg": 1.95,
+      "elapsed_sec_p50": 1.99,
+      "elapsed_sec_p95": 2.64,
+      "cited_total": 137,
+      "n_sub_questions_avg": 0
+    },
+    "agent": {
+      "total": 50,
+      "errors": 0,
+      "sentiment_accuracy": 0.68,
+      "keyword_hit_rate_avg": 0.747,
+      "off_topic_recall": 1.0,
+      "elapsed_sec_avg": 3.09,
+      "elapsed_sec_p50": 3.51,
+      "elapsed_sec_p95": 4.61,
+      "cited_total": 171,
+      "n_sub_questions_avg": 2.16
+    },
+    "agent_reflect": {
+      "total": 50,
+      "errors": 0,
+      "sentiment_accuracy": 0.74,
+      "keyword_hit_rate_avg": 0.76,
+      "off_topic_recall": 1.0,
+      "elapsed_sec_avg": 5.11,
+      "elapsed_sec_p50": 5.55,
+      "elapsed_sec_p95": 8.66,
+      "cited_total": 180,
+      "n_sub_questions_avg": 2.92
+    }
+  },
+  "records": {
+    "single_shot": [
+      {
+        "id": 1,
+        "game": "Black Myth: Wukong",
+        "question": "Is this game worth buying?",
+        "mode": "single_shot",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "worth|值得",
+          "buy|购买",
+          "money|金钱"
+        ],
+        "sentiment": "positive",
+        "answer": "值得购买。多条评论都表示游戏物有所值,例如称其为「值得购买」[1]、「每一分钱都值」[2]、「杰作,值得等待」[3],以及「值得一玩,你不会后悔」[4]。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.667,
+        "keywords_matched": [
+          "worth|值得",
+          "buy|购买"
+        ],
+        "keywords_missed": [
+          "money|金钱"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 2.31,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 2,
+        "game": "Black Myth: Wukong",
+        "question": "How is the combat system?",
+        "mode": "single_shot",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "combat|战斗",
+          "boss"
+        ],
+        "sentiment": "positive",
+        "answer": "战斗系统整体受到好评,被形容为有趣、流畅且令人耳目一新[1][2][4],但也有玩家认为战斗和动作排队仍需打磨[3]。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.5,
+        "keywords_matched": [
+          "combat|战斗"
+        ],
+        "keywords_missed": [
+          "boss"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.94,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 3,
+        "game": "Black Myth: Wukong",
+        "question": "Are the boss fights well-designed?",
+        "mode": "single_shot",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "boss",
+          "fight|战斗",
+          "design|设计"
+        ],
+        "sentiment": "positive",
+        "answer": "是的，召回评论一致认为 Boss 战设计出色：有玩家称其超越其他任何游戏 [1]，有人形容部分 Boss 战极为疯狂 [2]，也有人喜欢紧凑连贯的 Boss 战与流畅战斗 [3]，还有人称其为年度游戏、Boss 战很棒 [4]。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "boss",
+          "fight|战斗",
+          "design|设计"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 2.4,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 4,
+        "game": "Black Myth: Wukong",
+        "question": "How is the story and plot?",
+        "mode": "single_shot",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "story|故事",
+          "chapter|章节",
+          "chinese|中国"
+        ],
+        "sentiment": "mixed",
+        "answer": "评论对剧情的评价不一。有玩家认为剧情薄弱，质疑故事在哪，并指出它更像魂类而非动作RPG [1]；也有玩家表示剧情需要阅读《西游记》才能理解 [2]。另有玩家用调侃方式概括剧情为重复打怪、最后发现反转 [3]。而正面评价则称赞世界观和故事引人入胜 [4]。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 0.333,
+        "keywords_matched": [
+          "story|故事"
+        ],
+        "keywords_missed": [
+          "chapter|章节",
+          "chinese|中国"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 2.64,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 5,
+        "game": "Black Myth: Wukong",
+        "question": "How is the optimization on PC?",
+        "mode": "single_shot",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "optimization|优化",
+          "performance|性能",
+          "fps|帧率"
+        ],
+        "sentiment": "mixed",
+        "answer": "PC 优化评价两极分化:有玩家认为优化不错、无卡顿,甚至优于多数 3A 游戏 [3];但也有玩家批评优化差,称着色器优化糟糕 [2],或高端配置(7900xtx、7800x3d)在开场就崩溃 [4],还有人表示目前仍需进一步优化 [1]。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.333,
+        "keywords_matched": [
+          "optimization|优化"
+        ],
+        "keywords_missed": [
+          "performance|性能",
+          "fps|帧率"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 2.48,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 6,
+        "game": "Black Myth: Wukong",
+        "question": "Is the game too difficult?",
+        "mode": "single_shot",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "difficult|难",
+          "hard|难",
+          "souls|魂"
+        ],
+        "sentiment": "mixed",
+        "answer": "是的，评论普遍认为游戏非常困难。有玩家直接表示“非常难，准备好受苦”[1]，也有玩家将其比作《只狼》，强调“这是一款非常困难的游戏，不适合所有人”[2]。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.667,
+        "keywords_matched": [
+          "difficult|难",
+          "hard|难"
+        ],
+        "keywords_missed": [
+          "souls|魂"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 2.03,
+        "cited_count": 2,
+        "error": null
+      },
+      {
+        "id": 7,
+        "game": "Black Myth: Wukong",
+        "question": "Are there bugs and technical issues?",
+        "mode": "single_shot",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "bugs|bug",
+          "crash|崩溃",
+          "glitches|bug"
+        ],
+        "sentiment": "negative",
+        "answer": "是的,评论中多次提到技术问题。有玩家反映游戏频繁崩溃、卡顿和性能问题,尤其在 AMD 平台和最新补丁后更严重 [1][2];也有玩家认为游戏尚未完全优化,存在一些技术问题 [3];还有玩家称游戏被严重的技术问题拖累 [4]。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 0.333,
+        "keywords_matched": [
+          "crash|崩溃"
+        ],
+        "keywords_missed": [
+          "bugs|bug",
+          "glitches|bug"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.99,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 8,
+        "game": "Black Myth: Wukong",
+        "question": "How long does it take to beat the game?",
+        "mode": "single_shot",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "hours|小时",
+          "chapter|章节",
+          "length|时长"
+        ],
+        "sentiment": "positive",
+        "answer": "评论中未提及具体通关时长,但多位玩家提到已通关,游玩时数分别为31、45、70、101小时 [1][2][3][4]。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.667,
+        "keywords_matched": [
+          "hours|小时",
+          "length|时长"
+        ],
+        "keywords_missed": [
+          "chapter|章节"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 2.01,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 9,
+        "game": "Black Myth: Wukong",
+        "question": "How is the graphics and visuals?",
+        "mode": "single_shot",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "graphics|画面",
+          "visuals|画面",
+          "beautiful|美"
+        ],
+        "sentiment": "positive",
+        "answer": "召回片段普遍称赞游戏的画面与美术表现：有玩家称视觉美得惊人、是其所见电子游戏中最好的之一[1]；也有玩家称画面令人惊叹，完美呈现中国传统美学，且优化出色[3]；还有玩家称画面与美术设计惊艳，是最佳视觉效果[4]。整体评价非常正面。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "graphics|画面",
+          "visuals|画面",
+          "beautiful|美"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 2.51,
+        "cited_count": 3,
+        "error": null
+      },
+      {
+        "id": 10,
+        "game": "Black Myth: Wukong",
+        "question": "Is it good value for money?",
+        "mode": "single_shot",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "price|价格",
+          "value|价值",
+          "worth|值得"
+        ],
+        "sentiment": "positive",
+        "answer": "是,物有所值。多条评论明确表示值得花费时间和金钱,如[3]称其为2024年最佳游戏、值得你的时间和金钱,[4]称完全值得金钱和时间,[2]也表达了愿意付费并期待DLC。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.333,
+        "keywords_matched": [
+          "worth|值得"
+        ],
+        "keywords_missed": [
+          "price|价格",
+          "value|价值"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.9,
+        "cited_count": 3,
+        "error": null
+      },
+      {
+        "id": 11,
+        "game": "ELDEN RING",
+        "question": "Is Elden Ring worth buying?",
+        "mode": "single_shot",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "worth|值得",
+          "buy|购买"
+        ],
+        "sentiment": "positive",
+        "answer": "召回片段中未直接说明是否值得购买,但多条评论均给出推荐并表现出极高热情,例如 [1] 反问玩家是否配得上玩这款游戏,[2][3] 反复呼喊游戏名表达兴奋,[4] 称自己已成为 ELDEN RING。整体倾向正面。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "worth|值得",
+          "buy|购买"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 3.46,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 12,
+        "game": "ELDEN RING",
+        "question": "How is the open world exploration?",
+        "mode": "single_shot",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "open|开放",
+          "world|世界",
+          "exploration|探索"
+        ],
+        "sentiment": "positive",
+        "answer": "评论中未提及开放世界探索的具体体验,仅称其为开放世界游戏或「开放世界的黑暗之魂」[1][2][3][4]。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "open|开放",
+          "world|世界",
+          "exploration|探索"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.63,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 13,
+        "game": "ELDEN RING",
+        "question": "Are the boss fights good?",
+        "mode": "single_shot",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "boss",
+          "fight|战斗"
+        ],
+        "sentiment": "positive",
+        "answer": "是的，Boss 战评价很好。有玩家称其为「a worthy challenge」，很喜欢 Boss 战 [1]；也有玩家称赞从 Boss 战到氛围、音乐都很出色，称其为杰作 [3]。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.5,
+        "keywords_matched": [
+          "boss"
+        ],
+        "keywords_missed": [
+          "fight|战斗"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.58,
+        "cited_count": 2,
+        "error": null
+      },
+      {
+        "id": 14,
+        "game": "ELDEN RING",
+        "question": "Is it too difficult for casual players?",
+        "mode": "single_shot",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "difficult|难",
+          "hard|难",
+          "casual|休闲"
+        ],
+        "sentiment": "mixed",
+        "answer": "评论对此看法不一：有玩家认为游戏只适合休闲玩家、轻松简单[1]，也有玩家认为开放世界让难度对休闲玩家更可承受[2]；同时有评论调侃休闲玩家会要求加入非常简单模式[3]，还有人表示游戏比保龄球还难[4]。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "difficult|难",
+          "hard|难",
+          "casual|休闲"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 2.01,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 15,
+        "game": "ELDEN RING",
+        "question": "How is the multiplayer and co-op?",
+        "mode": "single_shot",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "multiplayer|联机",
+          "coop|合作",
+          "online|在线"
+        ],
+        "sentiment": "mixed",
+        "answer": "多人联机体验褒贬不一:有玩家指出游戏并非真正的合作模式,需要刷花才能重新召唤好友,建议单人游玩 [1];也有玩家开启多人后立刻被出生点击杀,但仍给出好评 [2];另有玩家推荐安装「Seamless Co-Op」模组与朋友联机 [3],并认为该模组服务器优于官方服务器 [4]。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.667,
+        "keywords_matched": [
+          "multiplayer|联机",
+          "coop|合作"
+        ],
+        "keywords_missed": [
+          "online|在线"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 2.58,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 16,
+        "game": "ELDEN RING",
+        "question": "How deep is the lore?",
+        "mode": "single_shot",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "lore|背景",
+          "story|故事",
+          "dark|黑暗"
+        ],
+        "sentiment": "mixed",
+        "answer": "评论中未提及",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 0.0,
+        "keywords_matched": [],
+        "keywords_missed": [
+          "lore|背景",
+          "story|故事",
+          "dark|黑暗"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.51,
+        "cited_count": 0,
+        "error": null
+      },
+      {
+        "id": 17,
+        "game": "ELDEN RING",
+        "question": "Are there performance and stuttering issues?",
+        "mode": "single_shot",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "performance|性能",
+          "fps|帧率",
+          "stutter|卡顿"
+        ],
+        "sentiment": "mixed",
+        "answer": "是,多个评论都提到性能与卡顿问题:[1] 提到 Stuttering issues,[2] 提到 frame stuttering issues,[3] 称性能不可接受、频繁掉帧且九个月后仍令人失望,[4] 称两年后仍有卡顿问题。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.667,
+        "keywords_matched": [
+          "performance|性能",
+          "stutter|卡顿"
+        ],
+        "keywords_missed": [
+          "fps|帧率"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 2.15,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 18,
+        "game": "ELDEN RING",
+        "question": "How long is the game?",
+        "mode": "single_shot",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "hours|小时",
+          "finish|通关",
+          "length|时长"
+        ],
+        "sentiment": "?",
+        "answer": "",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 0.0,
+        "keywords_matched": [],
+        "keywords_missed": [
+          "hours|小时",
+          "finish|通关",
+          "length|时长"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 0.0,
+        "cited_count": 0,
+        "error": "ValueError: could not convert string to float: '1,223.5'"
+      },
+      {
+        "id": 19,
+        "game": "ELDEN RING",
+        "question": "How is the magic system?",
+        "mode": "single_shot",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "magic|魔法",
+          "sorcery|魔法",
+          "build"
+        ],
+        "sentiment": "?",
+        "answer": "",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 0.0,
+        "keywords_matched": [],
+        "keywords_missed": [
+          "magic|魔法",
+          "sorcery|魔法",
+          "build"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 0.0,
+        "cited_count": 0,
+        "error": "ValueError: could not convert string to float: '1,397.7'"
+      },
+      {
+        "id": 20,
+        "game": "ELDEN RING",
+        "question": "Is it good for newcomers to souls games?",
+        "mode": "single_shot",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "newcomers|新手",
+          "souls|魂",
+          "friendly|友好"
+        ],
+        "sentiment": "positive",
+        "answer": "召回片段中有玩家表示自己讨厌魂类游戏但仍觉得本作非常好[1]，暗示对新手友好；其他片段主要强调它是魂类游戏的集大成者或最佳作品[2][3][4]，未直接讨论新手体验。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "newcomers|新手",
+          "souls|魂",
+          "friendly|友好"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.95,
+        "cited_count": 1,
+        "error": null
+      },
+      {
+        "id": 21,
+        "game": "Red Dead Redemption 2",
+        "question": "Is RDR2 worth buying?",
+        "mode": "single_shot",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "worth|值得",
+          "buy|购买"
+        ],
+        "sentiment": "mixed",
+        "answer": "评论中存在分歧：有玩家认为值得购买 [1][2]，但也有玩家因线上合作体验差 [3] 或无法启动游戏 [4] 而认为不值得购买。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "worth|值得",
+          "buy|购买"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": true,
+        "n_sub_questions": 0,
+        "elapsed_sec": 2.98,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 22,
+        "game": "Red Dead Redemption 2",
+        "question": "How is the story?",
+        "mode": "single_shot",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "story|故事",
+          "arthur|亚瑟",
+          "emotional|感人"
+        ],
+        "sentiment": "positive",
+        "answer": "故事广受好评,被多位玩家称为史上最佳故事游戏之一 [2][3],也有玩家称赞故事很棒 [1][4]。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.333,
+        "keywords_matched": [
+          "story|故事"
+        ],
+        "keywords_missed": [
+          "arthur|亚瑟",
+          "emotional|感人"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.97,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 23,
+        "game": "Red Dead Redemption 2",
+        "question": "How is the open world?",
+        "mode": "single_shot",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "world|世界",
+          "exploration|探索",
+          "horse|马"
+        ],
+        "sentiment": "positive",
+        "answer": "玩家普遍称赞其开放世界极为出色,被称为 Rockstar 制作过的最好的开放世界游戏,也是有史以来最好的开放世界游戏之一 [1][2][3][4]。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.333,
+        "keywords_matched": [
+          "world|世界"
+        ],
+        "keywords_missed": [
+          "exploration|探索",
+          "horse|马"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.58,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 24,
+        "game": "Red Dead Redemption 2",
+        "question": "How is the online mode?",
+        "mode": "single_shot",
+        "expect_sentiment": "negative",
+        "expect_keywords": [
+          "online|在线",
+          "microtransactions|氪金",
+          "grind|刷"
+        ],
+        "sentiment": "mixed",
+        "answer": "线上模式评价褒贬不一：有玩家认为足够有趣 [1][2]，但也有玩家指出线上模式并不出色 [4]，且存在大量作弊者，因此不推荐 [3]。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 0.0,
+        "keywords_matched": [],
+        "keywords_missed": [
+          "online|在线",
+          "microtransactions|氪金",
+          "grind|刷"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.97,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 25,
+        "game": "Red Dead Redemption 2",
+        "question": "How is the shooting gameplay?",
+        "mode": "single_shot",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "shooting|射击",
+          "gun|枪",
+          "dead|死"
+        ],
+        "sentiment": "positive",
+        "answer": "评论中多次提到射击玩法,但描述较为简略,主要将其作为游戏特色之一。[1]称其为「shooting cowboy game」,[2]提到「Cowboy Shooting」,[3]称其为「Funny shooting innocent people game」,[4]在列举游戏优点时也提到了「Shooting」。整体上射击玩法被视为游戏的一部分且评价偏正面,但缺乏具体细节。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 0.333,
+        "keywords_matched": [
+          "shooting|射击"
+        ],
+        "keywords_missed": [
+          "gun|枪",
+          "dead|死"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 2.2,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 26,
+        "game": "Red Dead Redemption 2",
+        "question": "Are there bugs and glitches?",
+        "mode": "single_shot",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "bugs|bug",
+          "crash|崩溃",
+          "glitches|bug"
+        ],
+        "sentiment": "negative",
+        "answer": "有,多个评论提到游戏存在大量 bug 和 glitch,尤其是线上模式。[1] 指出游戏最近充满 bug 和 glitch,严重到引发问题;[2] 提到线上仍有 glitch 和 bug;[3] 称线上模式 bug 多如 Bethesda 游戏;[4] 直接抱怨 bug 太多。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 0.667,
+        "keywords_matched": [
+          "bugs|bug",
+          "glitches|bug"
+        ],
+        "keywords_missed": [
+          "crash|崩溃"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 2.44,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 27,
+        "game": "Red Dead Redemption 2",
+        "question": "How long is the main story?",
+        "mode": "single_shot",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "hours|小时",
+          "story|故事",
+          "length|时长"
+        ],
+        "sentiment": "positive",
+        "answer": "评论中未提及主线故事的具体时长，只有玩家提到自己投入了大量时间（如每天5小时、持续近3周才通关主线 [1]）。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "hours|小时",
+          "story|故事",
+          "length|时长"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.44,
+        "cited_count": 1,
+        "error": null
+      },
+      {
+        "id": 28,
+        "game": "Red Dead Redemption 2",
+        "question": "How is the character development?",
+        "mode": "single_shot",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "arthur|亚瑟",
+          "character|角色",
+          "gang|帮派"
+        ],
+        "sentiment": "positive",
+        "answer": "角色发展备受好评,被多位玩家称赞。评论称其「character development」出色,是游戏亮点之一 [1][2][3][4]。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.333,
+        "keywords_matched": [
+          "character|角色"
+        ],
+        "keywords_missed": [
+          "arthur|亚瑟",
+          "gang|帮派"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.91,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 29,
+        "game": "Red Dead Redemption 2",
+        "question": "Is Rockstar's monetization fair?",
+        "mode": "single_shot",
+        "expect_sentiment": "negative",
+        "expect_keywords": [
+          "rockstar|r星",
+          "microtransactions|氪金",
+          "shark|鲨鱼"
+        ],
+        "sentiment": "mixed",
+        "answer": "评论中未提及对 Rockstar 变现模式是否公平的直接评价,仅有一条评论提到该公司在其他主要游戏中实施掠夺性变现手段 [1]。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 0.333,
+        "keywords_matched": [
+          "rockstar|r星"
+        ],
+        "keywords_missed": [
+          "microtransactions|氪金",
+          "shark|鲨鱼"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.67,
+        "cited_count": 1,
+        "error": null
+      },
+      {
+        "id": 30,
+        "game": "Red Dead Redemption 2",
+        "question": "How is the horse riding?",
+        "mode": "single_shot",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "horse|马",
+          "riding|骑行",
+          "control|操控"
+        ],
+        "sentiment": "positive",
+        "answer": "召回评论普遍称赞骑马体验,称其为最好的骑马模拟器[1],甚至称这是玩过的最好的马游戏[2],还有玩家说女友整天骑马[4]。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.333,
+        "keywords_matched": [
+          "horse|马"
+        ],
+        "keywords_missed": [
+          "riding|骑行",
+          "control|操控"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 2.18,
+        "cited_count": 3,
+        "error": null
+      },
+      {
+        "id": 31,
+        "game": "Black Myth: Wukong",
+        "question": "Hello there!",
+        "mode": "single_shot",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "无关"
+        ],
+        "sentiment": "positive",
+        "answer": "整体评价非常正面。玩家称赞游戏对硬件优化出色、战斗系统迷人、音乐忠实且动人 [1]；Boss 有趣、难度有挑战但不至于变态，地图华丽且可探索内容多，但容易迷路，建议参考地图攻略 [2]；画面和战斗优秀，风格更接近《战神》而非魂类，值得一玩 [3]。也有玩家以玩梗方式表达喜爱 [4]。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 0.0,
+        "keywords_matched": [],
+        "keywords_missed": [
+          "无关"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 2.58,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 32,
+        "game": "Black Myth: Wukong",
+        "question": "你是来拉屎的吧",
+        "mode": "single_shot",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "无关"
+        ],
+        "sentiment": "positive",
+        "answer": "评论中未提及与「你是来拉屎的吧」相关的内容,召回片段主要讨论游戏的画面、战斗、类型定位(非魂类)以及玩家对开发者的自豪感 [1][3][4]。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 0.0,
+        "keywords_matched": [],
+        "keywords_missed": [
+          "无关"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 2.42,
+        "cited_count": 3,
+        "error": null
+      },
+      {
+        "id": 33,
+        "game": "Black Myth: Wukong",
+        "question": "Who are you?",
+        "mode": "single_shot",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "无关"
+        ],
+        "sentiment": "positive",
+        "answer": "我是一个 Steam 游戏评论分析助手,只能基于你提供的召回评论片段来回答问题。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 0.0,
+        "keywords_matched": [],
+        "keywords_missed": [
+          "无关"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.41,
+        "cited_count": 0,
+        "error": null
+      },
+      {
+        "id": 34,
+        "game": "Black Myth: Wukong",
+        "question": "What's the weather today?",
+        "mode": "single_shot",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "无关"
+        ],
+        "sentiment": "mixed",
+        "answer": "评论中未提及",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.0,
+        "keywords_matched": [],
+        "keywords_missed": [
+          "无关"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.25,
+        "cited_count": 0,
+        "error": null
+      },
+      {
+        "id": 35,
+        "game": "Black Myth: Wukong",
+        "question": "Tell me a joke",
+        "mode": "single_shot",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "无关"
+        ],
+        "sentiment": "mixed",
+        "answer": "评论中未提及笑话内容,无法提供笑话。召回片段均为对游戏的评价,如称赞游戏完美 [2]、史上最佳 [1]、10/10 [4],以及一条因无法启动而给出差评 [3]。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.0,
+        "keywords_matched": [],
+        "keywords_missed": [
+          "无关"
+        ],
+        "off_topic_hit": true,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.93,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 36,
+        "game": "Black Myth: Wukong",
+        "question": "How do I cook pasta?",
+        "mode": "single_shot",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "无关"
+        ],
+        "sentiment": "mixed",
+        "answer": "评论中未提及",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.0,
+        "keywords_matched": [],
+        "keywords_missed": [
+          "无关"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.36,
+        "cited_count": 0,
+        "error": null
+      },
+      {
+        "id": 37,
+        "game": "Black Myth: Wukong",
+        "question": "你好啊",
+        "mode": "single_shot",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "无关"
+        ],
+        "sentiment": "positive",
+        "answer": "你好！根据召回评论，玩家对《Black Myth: Wukong》整体评价偏正面：有人称赞画面和战斗出色，认为更像《战神》而非魂类游戏，值得一玩 [1]；也有玩家称其为史上最爱游戏之一，并呼吁不要拿它和魂类比较 [4]。不过也有玩家指出它并非某些人所说的神作，存在大量隐形墙等问题 [3]。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 0.0,
+        "keywords_matched": [],
+        "keywords_missed": [
+          "无关"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 2.22,
+        "cited_count": 3,
+        "error": null
+      },
+      {
+        "id": 38,
+        "game": "Black Myth: Wukong",
+        "question": "What is the meaning of life?",
+        "mode": "single_shot",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "无关"
+        ],
+        "sentiment": "positive",
+        "answer": "评论中未提及对「人生意义」的直接定义,但部分片段以玩笑方式暗示人生意义在于「猴子」或「回归猴子」[1][2],另有片段称「生活可以是一场梦」[4]。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 0.0,
+        "keywords_matched": [],
+        "keywords_missed": [
+          "无关"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 2.23,
+        "cited_count": 3,
+        "error": null
+      },
+      {
+        "id": 39,
+        "game": "Black Myth: Wukong",
+        "question": "你是谁",
+        "mode": "single_shot",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "无关"
+        ],
+        "sentiment": "mixed",
+        "answer": "我是 Steam 游戏评论分析助手，只能基于你提供的召回评论片段来回答问题，无法回答与评论分析无关的问题。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "无关"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": true,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.52,
+        "cited_count": 0,
+        "error": null
+      },
+      {
+        "id": 40,
+        "game": "Black Myth: Wukong",
+        "question": "What's 2+2?",
+        "mode": "single_shot",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "无关"
+        ],
+        "sentiment": "mixed",
+        "answer": "评论中未提及与 2+2 相关的内容。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.0,
+        "keywords_matched": [],
+        "keywords_missed": [
+          "无关"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.3,
+        "cited_count": 0,
+        "error": null
+      },
+      {
+        "id": 41,
+        "game": "Black Myth: Wukong",
+        "question": "How is the combat AND the story?",
+        "mode": "single_shot",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "combat|战斗",
+          "story|故事"
+        ],
+        "sentiment": "positive",
+        "answer": "战斗和剧情都备受好评：评论称战斗出色、流畅，剧情引人入胜、令人惊叹 [1][2][3][4]。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 0.5,
+        "keywords_matched": [
+          "combat|战斗"
+        ],
+        "keywords_missed": [
+          "story|故事"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 2.17,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 42,
+        "game": "Black Myth: Wukong",
+        "question": "Is this game perfect? Any major flaws?",
+        "mode": "single_shot",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "optimization|优化",
+          "bug",
+          "performance|性能"
+        ],
+        "sentiment": "positive",
+        "answer": "多数评论认为游戏非常完美，例如称其“在各方面都完美”[1]、“从战斗到动画都完美”[2]、“完美到最后一处细节”[4]。但有一条评论提到“虽有一些瑕疵，仍超出预期”[3]，说明可能存在小缺陷，但未具体说明是什么重大缺陷。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 0.0,
+        "keywords_matched": [],
+        "keywords_missed": [
+          "optimization|优化",
+          "bug",
+          "performance|性能"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 2.24,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 43,
+        "game": "Black Myth: Wukong",
+        "question": "Should I buy it on PC or wait for a Steam Deck?",
+        "mode": "single_shot",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "pc",
+          "performance|性能",
+          "deck"
+        ],
+        "sentiment": "mixed",
+        "answer": "评论中对 PC 与 Steam Deck 的体验说法不一：有玩家在 4060 及以下显卡的 PC 上遇到崩溃、掉帧甚至断电，建议不要在 PC 上买 [2]；也有玩家表示在 Steam Deck 上稍作调整后运行良好 [3]，甚至能稳定 30 fps、优化出色 [4]。因此若你的 PC 显卡较弱，可考虑等 Steam Deck 版本或先确认配置 [2][3][4]。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.667,
+        "keywords_matched": [
+          "pc",
+          "deck"
+        ],
+        "keywords_missed": [
+          "performance|性能"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 2.17,
+        "cited_count": 3,
+        "error": null
+      },
+      {
+        "id": 44,
+        "game": "Black Myth: Wukong",
+        "question": "Is the DLC worth buying?",
+        "mode": "single_shot",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "dlc",
+          "worth|值得"
+        ],
+        "sentiment": "mixed",
+        "answer": "评论中未提及 DLC 是否值得购买,仅有玩家表示期待 DLC(如 [3] 提到「Waiting for DLC (if any)」),但没有关于 DLC 购买价值的评价。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "dlc",
+          "worth|值得"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.82,
+        "cited_count": 1,
+        "error": null
+      },
+      {
+        "id": 45,
+        "game": "Black Myth: Wukong",
+        "question": "Will I enjoy this if I never played a souls game?",
+        "mode": "single_shot",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "souls|魂",
+          "difficult|难",
+          "beginner|新手"
+        ],
+        "sentiment": "positive",
+        "answer": "可以。评论提到即使不擅长魂类游戏的玩家也很享受本作[2]，而且本作比魂类游戏更简单[3]，挑战性适中、更像《战神2018》而非魂类游戏[4]。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 0.333,
+        "keywords_matched": [
+          "souls|魂"
+        ],
+        "keywords_missed": [
+          "difficult|难",
+          "beginner|新手"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.93,
+        "cited_count": 3,
+        "error": null
+      },
+      {
+        "id": 46,
+        "game": "Black Myth: Wukong",
+        "question": "How is the soundtrack?",
+        "mode": "single_shot",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "music|音乐",
+          "soundtrack|配乐"
+        ],
+        "sentiment": "positive",
+        "answer": "玩家普遍称赞游戏的配乐。有评论称其「great soundtrack」[1]，也有评论认为「soundtrack pretty good」[2]，还有评论将其列为「absolutely amazing graphics as well as soundtrack」之一[3]，另有评论提到「Soundtrack Gameplay」表现良好[4]。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.5,
+        "keywords_matched": [
+          "soundtrack|配乐"
+        ],
+        "keywords_missed": [
+          "music|音乐"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 2.14,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 47,
+        "game": "Black Myth: Wukong",
+        "question": "Is it suitable for kids?",
+        "mode": "single_shot",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "violence|暴力",
+          "content|内容"
+        ],
+        "sentiment": "mixed",
+        "answer": "评论中未明确说明是否适合儿童。片段[4]的受众勾选栏中「Kids」未被勾选,暗示可能不适合儿童,但未给出明确理由。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.0,
+        "keywords_matched": [],
+        "keywords_missed": [
+          "violence|暴力",
+          "content|内容"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.78,
+        "cited_count": 1,
+        "error": null
+      },
+      {
+        "id": 48,
+        "game": "Black Myth: Wukong",
+        "question": "Any tips for beginners?",
+        "mode": "single_shot",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "tip|建议",
+          "beginner|新手",
+          "advice|建议"
+        ],
+        "sentiment": "mixed",
+        "answer": "评论中未提及新手技巧。片段仅涉及画面、战斗、类型比较和开发者评价,没有针对初学者的建议。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "tip|建议",
+          "beginner|新手",
+          "advice|建议"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.29,
+        "cited_count": 0,
+        "error": null
+      },
+      {
+        "id": 49,
+        "game": "ELDEN RING",
+        "question": "How is it compared to Dark Souls?",
+        "mode": "single_shot",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "souls|魂",
+          "compared|对比",
+          "previous|前作"
+        ],
+        "sentiment": "positive",
+        "answer": "评论普遍将《艾尔登法环》与《黑暗之魂》系列作类比,称其为「2022 年的黑魂,但多了匹马」[1],或「像黑魂,但黑魂味更浓」[2],也有评论说「他们让你在黑魂里蹲起嘲讽」[3],以及「是加了辣酱的黑魂2」[4]。整体认为它与黑魂高度相似。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 0.333,
+        "keywords_matched": [
+          "souls|魂"
+        ],
+        "keywords_missed": [
+          "compared|对比",
+          "previous|前作"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 2.27,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 50,
+        "game": "Red Dead Redemption 2",
+        "question": "How active are the online servers?",
+        "mode": "single_shot",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "online|在线",
+          "server|服务器",
+          "active|活跃"
+        ],
+        "sentiment": "negative",
+        "answer": "在线服务器非常不稳定、经常宕机。有玩家称在线服务器是个笑话[1],服务器经常掉线[3],而且服务器几乎从不处于在线状态[4],甚至单人模式也因需要在线连接而受影响[2]。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 0.667,
+        "keywords_matched": [
+          "online|在线",
+          "server|服务器"
+        ],
+        "keywords_missed": [
+          "active|活跃"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 0,
+        "elapsed_sec": 2.02,
+        "cited_count": 4,
+        "error": null
+      }
+    ],
+    "agent": [
+      {
+        "id": 1,
+        "game": "Black Myth: Wukong",
+        "question": "Is this game worth buying?",
+        "mode": "agent",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "worth|值得",
+          "buy|购买",
+          "money|金钱"
+        ],
+        "sentiment": "positive",
+        "answer": "综合召回片段，这款游戏值得购买。价格方面，多位玩家认为即使全价也物有所值，如[1]称「Every penny is hell'ya worth」，[2]表示「Worth for every pennies you spend in this game even at full price」，[3]给出「11/10 worth the full price」，[4]也提到自己破例全价购买。游戏推荐方面，[1]称其为「不错的3A大作，值得推荐」，[2]赞扬游戏「aura」和 gameplay，[3]表示「enjoyed the game so much」，[4]给出8.5/10并称「a lot of fun」。游戏评价方面，[3]称「A Journey Worth Every Second」，[4]指出这不是传统魂类游戏。综合来看，游戏值得购买。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.667,
+        "keywords_matched": [
+          "worth|值得",
+          "buy|购买"
+        ],
+        "keywords_missed": [
+          "money|金钱"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 5.03,
+        "cited_count": 8,
+        "error": null
+      },
+      {
+        "id": 2,
+        "game": "Black Myth: Wukong",
+        "question": "How is the combat system?",
+        "mode": "agent",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "combat|战斗",
+          "boss"
+        ],
+        "sentiment": "mixed",
+        "answer": "综合三轮召回片段，玩家对战斗系统的评价总体偏正面：多数评论认为战斗有趣、流畅且机制出色，例如有玩家称「战斗非常有趣」[1]、「连续Boss战搭配流畅战斗」[2]、「战斗机制有趣」[1]、「战斗很棒且Boss战出色」[3]、「战斗玩法惊艳，技能树类似《只狼》」[4]。但也有少数批评声音，指出「战斗和动作排队需要更多打磨」[3]，以及「战斗不够好，相比其他游戏过于重复、缺乏深度」[3]。整体来看，正面评价占多数，但存在关于重复性和打磨不足的负面意见。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "combat|战斗",
+          "boss"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 4.51,
+        "cited_count": 9,
+        "error": null
+      },
+      {
+        "id": 3,
+        "game": "Black Myth: Wukong",
+        "question": "Are the boss fights well-designed?",
+        "mode": "agent",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "boss",
+          "fight|战斗",
+          "design|设计"
+        ],
+        "sentiment": "mixed",
+        "answer": "评论对 Boss 战设计评价不一。[1] 称 Boss 战「epic」,[2] 表示本作改变了其对魂类游戏（即一场接一场 Boss 战）的看法，并称其为年度最佳游戏，可见对 Boss 战设计持肯定态度。但 [3] 认为游戏本质是「boss simulator」，缺乏探索、流程线性，语气偏负面；[4] 则直接给出「bad boss fight」的评价。综合来看，评论中既有称赞也有批评，未形成一致结论。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "boss",
+          "fight|战斗",
+          "design|设计"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 3.95,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 4,
+        "game": "Black Myth: Wukong",
+        "question": "How is the story and plot?",
+        "mode": "agent",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "story|故事",
+          "chapter|章节",
+          "chinese|中国"
+        ],
+        "sentiment": "mixed",
+        "answer": "关于《Black Myth: Wukong》的剧情与故事,召回片段整体评价偏正面。有玩家称其为「Amazing Story and Great Gameplay」[1],也有人表示「Best story ive ever played, so far」[4],还有评论给出「Good story」[2],并称其世界设定和故事「引人入胜」[4]。有玩家建议若难以理解剧情可阅读《西游记》原著[2],也有评论以调侃方式概括了章节式推进与剧情反转[3]。不过也存在负面声音,有玩家在称赞画面与战斗的同时质疑「where's the plot/story?」[1]。综合来看,多数片段认可其故事与剧情,但并非一致好评。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 0.667,
+        "keywords_matched": [
+          "story|故事",
+          "chapter|章节"
+        ],
+        "keywords_missed": [
+          "chinese|中国"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 2,
+        "elapsed_sec": 4.27,
+        "cited_count": 7,
+        "error": null
+      },
+      {
+        "id": 5,
+        "game": "Black Myth: Wukong",
+        "question": "How is the optimization on PC?",
+        "mode": "agent",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "optimization|优化",
+          "performance|性能",
+          "fps|帧率"
+        ],
+        "sentiment": "mixed",
+        "answer": "关于 PC 优化,评论中意见不一。有玩家认为优化还需改进,例如表示「needs some more optimization atm but very fun」[1],并称「I haven't seen shader optimization this poor since Starfield」[4],另有玩家在称赞游戏整体优秀的同时指出「Could use some improvement in performance optimization」[3]。但也有玩家给出正面评价,称「No lag, better optimization than most triple A games」[4]。综合来看,优化表现存在争议,既有批评也有肯定。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.667,
+        "keywords_matched": [
+          "optimization|优化",
+          "performance|性能"
+        ],
+        "keywords_missed": [
+          "fps|帧率"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 2,
+        "elapsed_sec": 4.16,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 6,
+        "game": "Black Myth: Wukong",
+        "question": "Is the game too difficult?",
+        "mode": "agent",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "difficult|难",
+          "hard|难",
+          "souls|魂"
+        ],
+        "sentiment": "mixed",
+        "answer": "游戏有一定难度，但多数评论认为难度适中或具有挑战性且令人满意。有评论表示游戏很难，甚至差点放弃[1]，也有评论称其非常难但仍很有趣[4]。不过，有评论认为难度平衡得恰到好处[2]，或认为并不太难，尤其对于玩过FromSoftware游戏的玩家来说很轻松[3]。另有评论指出游戏没有难度选择选项[1]（难度级别召回片段），且难度随章节逐渐增加[4]（难度级别召回片段）。总体而言，难度是挑战性与乐趣并存的。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.667,
+        "keywords_matched": [
+          "difficult|难",
+          "hard|难"
+        ],
+        "keywords_missed": [
+          "souls|魂"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 3.37,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 7,
+        "game": "Black Myth: Wukong",
+        "question": "Are there bugs and technical issues?",
+        "mode": "agent",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "bugs|bug",
+          "crash|崩溃",
+          "glitches|bug"
+        ],
+        "sentiment": "mixed",
+        "answer": "是的，评论中提到了不少bug和技术问题。有玩家反映游戏存在随机崩溃和AMD平台上的奇怪性能问题[1]；还有玩家表示在8月29日补丁后，原本的卡顿变成了持续崩溃，技术问题反而更严重了[2]。性能方面，有玩家提到游戏对硬件要求高，会出现性能问题[3]，也有玩家用4070 Super在90帧下偶尔感觉掉到20帧[4]。此外，有玩家反复强调图形崩溃[5]。不过也有玩家认为游戏整体打磨精良、没有bug[6]。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "bugs|bug",
+          "crash|崩溃",
+          "glitches|bug"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 3.67,
+        "cited_count": 6,
+        "error": null
+      },
+      {
+        "id": 8,
+        "game": "Black Myth: Wukong",
+        "question": "How long does it take to beat the game?",
+        "mode": "agent",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "hours|小时",
+          "chapter|章节",
+          "length|时长"
+        ],
+        "sentiment": "positive",
+        "answer": "根据召回片段，玩家通关时长大约在50到60小时之间。有玩家提到在约50小时完成主线剧情[1]，也有玩家在约60小时通关并体验多个结局[2]，另有玩家在53小时完成主线并接近全收集[3]。综合来看，通关时长约为50-60小时。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.667,
+        "keywords_matched": [
+          "hours|小时",
+          "length|时长"
+        ],
+        "keywords_missed": [
+          "chapter|章节"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 2.93,
+        "cited_count": 3,
+        "error": null
+      },
+      {
+        "id": 9,
+        "game": "Black Myth: Wukong",
+        "question": "How is the graphics and visuals?",
+        "mode": "agent",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "graphics|画面",
+          "visuals|画面",
+          "beautiful|美"
+        ],
+        "sentiment": "positive",
+        "answer": "玩家普遍高度评价《黑神话：悟空》的画面与视觉效果。有玩家称这是其玩过画面和质量最疯狂的游戏[1]，并称其为有史以来画面最好的游戏[4]；也有人称赞游戏世界美得令人窒息，环境细节丰富、角色动画流畅[1]（visual design），视觉设计令人惊艳[4]（visual design）。美术风格方面，有玩家称图形与美术风格属于顶级水准[1]（art style），也有人认为这是其玩过最美的游戏之一，美术风格非常酷[2]（art style），并盛赞对中国古代美术风格的还原[4]（art style）。不过也有玩家在肯定华丽视觉效果与出色美术方向的同时，指出游戏整体体验并不均衡[3]（visual design）、[4]（visual design）。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "graphics|画面",
+          "visuals|画面",
+          "beautiful|美"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 4.02,
+        "cited_count": 7,
+        "error": null
+      },
+      {
+        "id": 10,
+        "game": "Black Myth: Wukong",
+        "question": "Is it good value for money?",
+        "mode": "agent",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "price|价格",
+          "value|价值",
+          "worth|值得"
+        ],
+        "sentiment": "positive",
+        "answer": "评论中未提及性价比或价格与内容比例的具体信息。片段[1]建议购买并享受游戏,片段[3]称其为年度游戏,片段[4]提到游戏在线人数超越CS2并创造历史,但这些均未直接评价是否物有所值。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.333,
+        "keywords_matched": [
+          "price|价格"
+        ],
+        "keywords_missed": [
+          "value|价值",
+          "worth|值得"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 3.26,
+        "cited_count": 3,
+        "error": null
+      },
+      {
+        "id": 11,
+        "game": "ELDEN RING",
+        "question": "Is Elden Ring worth buying?",
+        "mode": "agent",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "worth|值得",
+          "buy|购买"
+        ],
+        "sentiment": "positive",
+        "answer": "从召回片段看,所有评论均为「Recommended」(推荐),但内容多为对「ELDEN RING」的狂热呼喊,缺乏对游戏玩法、价值或购买理由的具体说明。片段 [3] 提到「Great game as every other that came out from From Software」并附有评测链接,是唯一带有实质评价的内容,但未展开细节。因此,评论整体倾向推荐,但关于是否值得购买的具体理由,评论中未提及。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "worth|值得",
+          "buy|购买"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 3.87,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 12,
+        "game": "ELDEN RING",
+        "question": "How is the open world exploration?",
+        "mode": "agent",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "open|开放",
+          "world|世界",
+          "exploration|探索"
+        ],
+        "sentiment": "positive",
+        "answer": "召回片段仅将本作描述为「开放世界」类游戏,例如称其为「2022 年的开放世界黑暗之魂」[1]、「史上最伟大的开放世界游戏之一」[2],以及「开放世界游戏中的黑暗之魂」[3][4]。关于开放世界探索的具体玩法、地图设计或探索体验,评论中未提及。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "open|开放",
+          "world|世界",
+          "exploration|探索"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 3.16,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 13,
+        "game": "ELDEN RING",
+        "question": "Are the boss fights good?",
+        "mode": "agent",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "boss",
+          "fight|战斗"
+        ],
+        "sentiment": "mixed",
+        "answer": "整体来看,Boss 战评价偏正面,但存在争议。正面方面:有玩家表示「很喜欢 Boss 战,是值得的挑战」[1],称赞「从 Boss 战到氛围再到音乐」都是杰作[3],对「Boss 战的战斗、动作与音效设计感到满意」[3],并认为游戏「有大量拥有不同弱点的 Boss 战」[2]。难度方面,有玩家指出「使用召唤可大幅降低难度,即使不追求挑战的玩家也能享受 Boss 战」[1]。负面方面:有玩家直言「Boss 战很烂,太多一击必杀的招式,这不是好设计,而是偷懒和廉价」[4]。因此 Boss 战质量总体受好评,但难度设计(尤其一击必杀)受到部分批评。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "boss",
+          "fight|战斗"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 4.21,
+        "cited_count": 6,
+        "error": null
+      },
+      {
+        "id": 14,
+        "game": "ELDEN RING",
+        "question": "Is it too difficult for casual players?",
+        "mode": "agent",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "difficult|难",
+          "hard|难",
+          "casual|休闲"
+        ],
+        "sentiment": "positive",
+        "answer": "评论中未提及休闲玩家是否觉得太难。召回片段中仅有一条提到难度相关描述,称游戏「pleasantly challenging」(令人愉悦的挑战)[4],但未针对休闲玩家或新手做出评价,其余片段均未涉及难度或休闲玩家话题。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "difficult|难",
+          "hard|难",
+          "casual|休闲"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 2.97,
+        "cited_count": 1,
+        "error": null
+      },
+      {
+        "id": 15,
+        "game": "ELDEN RING",
+        "question": "How is the multiplayer and co-op?",
+        "mode": "agent",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "multiplayer|联机",
+          "coop|合作",
+          "online|在线"
+        ],
+        "sentiment": "positive",
+        "answer": "评论中未提及多人或合作模式的具体内容。召回片段仅涉及对游戏整体的评价,如称其为「Steam 上最喜欢的游戏」[1]、「10/10」[2]、「魂类开放世界杰作」[3],以及一条无实质内容的评论[4],均未描述 multiplayer 或 co-op 体验。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 0.667,
+        "keywords_matched": [
+          "multiplayer|联机",
+          "coop|合作"
+        ],
+        "keywords_missed": [
+          "online|在线"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 2,
+        "elapsed_sec": 3.67,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 16,
+        "game": "ELDEN RING",
+        "question": "How deep is the lore?",
+        "mode": "agent",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "lore|背景",
+          "story|故事",
+          "dark|黑暗"
+        ],
+        "sentiment": "positive",
+        "answer": "评论中未提及剧情/世界观/故事背景的具体深度。仅有一条评论笼统称赞游戏「well written」(写得好)[4],但未展开说明 lore 的深度;其余片段只提到年度游戏、推荐、10/10 等,与剧情深度无关。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.667,
+        "keywords_matched": [
+          "lore|背景",
+          "story|故事"
+        ],
+        "keywords_missed": [
+          "dark|黑暗"
+        ],
+        "off_topic_hit": true,
+        "n_sub_questions": 3,
+        "elapsed_sec": 2.95,
+        "cited_count": 1,
+        "error": null
+      },
+      {
+        "id": 17,
+        "game": "ELDEN RING",
+        "question": "Are there performance and stuttering issues?",
+        "mode": "agent",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "performance|性能",
+          "fps|帧率",
+          "stutter|卡顿"
+        ],
+        "sentiment": "mixed",
+        "answer": "是的，评论中提到了性能问题和卡顿问题。关于性能问题，有玩家表示存在性能问题但仍认为是年度游戏 [1]，也有玩家称除了一些性能问题外游戏很棒 [2]，还有玩家认为性能问题烦人但可管理 [3]，不过也有玩家表示自己幸运地没有遇到性能问题 [4]。关于卡顿问题，有玩家提到前方有卡顿问题 [1]，有玩家称有帧卡顿问题但游戏很棒 [2]，有玩家表示两年后游戏仍有卡顿问题 [3]，还有玩家认为卡顿问题是唯一拖后腿的地方 [4]。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.667,
+        "keywords_matched": [
+          "performance|性能",
+          "stutter|卡顿"
+        ],
+        "keywords_missed": [
+          "fps|帧率"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 2,
+        "elapsed_sec": 3.85,
+        "cited_count": 8,
+        "error": null
+      },
+      {
+        "id": 18,
+        "game": "ELDEN RING",
+        "question": "How long is the game?",
+        "mode": "agent",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "hours|小时",
+          "finish|通关",
+          "length|时长"
+        ],
+        "sentiment": "positive",
+        "answer": "评论中未明确给出统一的通关时长，但可从玩家游玩时长和一条通关记录中归纳：有玩家游玩了 158 小时 [1]、214 小时 [2]、296 小时 [3]、260 小时 [4]；另有玩家表示自己 140 小时完成了约 90% 的进度 [1]（completion time 召回片段）。整体来看，游戏时长较长，属于可投入上百小时的体量。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "hours|小时",
+          "finish|通关",
+          "length|时长"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 3.51,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 19,
+        "game": "ELDEN RING",
+        "question": "How is the magic system?",
+        "mode": "agent",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "magic|魔法",
+          "sorcery|魔法",
+          "build"
+        ],
+        "sentiment": "mixed",
+        "answer": "评论中未提及",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 0.0,
+        "keywords_matched": [],
+        "keywords_missed": [
+          "magic|魔法",
+          "sorcery|魔法",
+          "build"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 1.07,
+        "cited_count": 0,
+        "error": null
+      },
+      {
+        "id": 20,
+        "game": "ELDEN RING",
+        "question": "Is it good for newcomers to souls games?",
+        "mode": "agent",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "newcomers|新手",
+          "souls|魂",
+          "friendly|友好"
+        ],
+        "sentiment": "mixed",
+        "answer": "评论中未提及",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.0,
+        "keywords_matched": [],
+        "keywords_missed": [
+          "newcomers|新手",
+          "souls|魂",
+          "friendly|友好"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 1.18,
+        "cited_count": 0,
+        "error": null
+      },
+      {
+        "id": 21,
+        "game": "Red Dead Redemption 2",
+        "question": "Is RDR2 worth buying?",
+        "mode": "agent",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "worth|值得",
+          "buy|购买"
+        ],
+        "sentiment": "mixed",
+        "answer": "综合来看,评论对是否值得购买存在分歧。正面意见认为游戏值得购买,例如有玩家表示「worth buying this game」[1],也有玩家称即使接近一年后购买也「more worthy and gives more realistic feel」[2],还有玩家在提到PC性能问题后仍表示游戏本身不错、无论全价还是打折都值得买[4]。负面意见则指出在特定情况下不值得购买:如果对线上合作感兴趣则「not worth buying」[3],以及因启动器问题无法启动游戏时「not worth buying until they fix it」[4]。此外,关于游戏性能,有评论称赞玩法、画面、细节和剧情是「pure MASTERPIECE」但批评Rockstar弃坑[1],也有评论指出游戏「Way too buggy and riddled with performance issues」[2],以及「Rockstar launcher and game performance ruin this game」[3]。因此是否值得购买取决于玩家是否在意线上合作、启动器与性能问题。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "worth|值得",
+          "buy|购买"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": true,
+        "n_sub_questions": 3,
+        "elapsed_sec": 5.11,
+        "cited_count": 8,
+        "error": null
+      },
+      {
+        "id": 22,
+        "game": "Red Dead Redemption 2",
+        "question": "How is the story?",
+        "mode": "agent",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "story|故事",
+          "arthur|亚瑟",
+          "emotional|感人"
+        ],
+        "sentiment": "positive",
+        "answer": "召回片段对《荒野大镖客2》的故事/叙事评价非常正面：有玩家称其为「有史以来最好的故事游戏」[2]，也有人表示是「我玩过的最好的故事」[3]，还有评论称赞其「精心打造的叙事」[1]以及「扣人心弦的叙事」[3]（narrative 召回）。不过也有玩家在肯定故事的同时批评线上模式，称「故事不错，但线上模式很糟糕」[4]，并提到线上「奖励很少」[1]（story 召回）。整体而言，故事本身广受好评，仅线上部分存在负面反馈。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.333,
+        "keywords_matched": [
+          "story|故事"
+        ],
+        "keywords_missed": [
+          "arthur|亚瑟",
+          "emotional|感人"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 3.69,
+        "cited_count": 5,
+        "error": null
+      },
+      {
+        "id": 23,
+        "game": "Red Dead Redemption 2",
+        "question": "How is the open world?",
+        "mode": "agent",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "world|世界",
+          "exploration|探索",
+          "horse|马"
+        ],
+        "sentiment": "positive",
+        "answer": "玩家普遍给予极高评价,认为这是最好的开放世界游戏之一。有评论称其为「Rockstar 做过的最好的开放世界游戏」[1],也有评论称其为「有史以来最好的开放世界游戏」[2][3],还有评论认为它是「最棒的开放世界游戏之一」[4]。在探索方面,有玩家表示其出色的开放世界与探索体验使其成为完美的「放松休闲」游戏[1]。在开放世界设计上,有评论称赞其沉浸式的开放世界设计,称其为 Rockstar 的真正杰作,为游戏卓越树立了新标准[3];另有评论称其世界设计、氛围、剧情等各方面都极为出色[1]。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.667,
+        "keywords_matched": [
+          "world|世界",
+          "exploration|探索"
+        ],
+        "keywords_missed": [
+          "horse|马"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 3.67,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 24,
+        "game": "Red Dead Redemption 2",
+        "question": "How is the online mode?",
+        "mode": "agent",
+        "expect_sentiment": "negative",
+        "expect_keywords": [
+          "online|在线",
+          "microtransactions|氪金",
+          "grind|刷"
+        ],
+        "sentiment": "mixed",
+        "answer": "关于线上模式,评论看法不一。有玩家认为线上模式足够有趣、值得一玩([1]),也有人称其超级享受([2]),还有玩家表示线上模式令人上瘾([3] of online connectivity)。但负面反馈同样存在:有玩家指出线上模式虽然有趣,却因外挂太多而不推荐([3]),也有玩家直言线上模式并不出色([4]),还有玩家提到线上模式存在外挂问题([2] of online connectivity)。综合来看,线上模式有趣但受外挂困扰,评价褒贬不一。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 0.333,
+        "keywords_matched": [
+          "online|在线"
+        ],
+        "keywords_missed": [
+          "microtransactions|氪金",
+          "grind|刷"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 3.34,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 25,
+        "game": "Red Dead Redemption 2",
+        "question": "How is the shooting gameplay?",
+        "mode": "agent",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "shooting|射击",
+          "gun|枪",
+          "dead|死"
+        ],
+        "sentiment": "positive",
+        "answer": "综合召回片段，玩家对射击玩法的评价总体偏正面：有玩家称枪战「actually fun」[1]，也有玩家直接称赞「Amazing Gunplay」[3]，并认为整体机制很棒[4]。此外，有玩家提到游戏包含射击、狩猎等内容，称其为杰作[4]。不过也有玩家指出游戏有时操作笨拙（clunky），影响线上PvP体验[3]，并提到武器瞄准与对话按键冲突的问题[2]。整体来看，射击玩法受到肯定，但存在操作手感方面的瑕疵。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 0.667,
+        "keywords_matched": [
+          "shooting|射击",
+          "gun|枪"
+        ],
+        "keywords_missed": [
+          "dead|死"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 4.03,
+        "cited_count": 5,
+        "error": null
+      },
+      {
+        "id": 26,
+        "game": "Red Dead Redemption 2",
+        "question": "Are there bugs and glitches?",
+        "mode": "agent",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "bugs|bug",
+          "crash|崩溃",
+          "glitches|bug"
+        ],
+        "sentiment": "negative",
+        "answer": "评论中确实提到了大量 bug 和崩溃问题。有玩家指出游戏存在许多 bug 和崩溃 [1]，并戏称其为「Red Bug Redemption 2」，还调侃有「崩溃与掉线」DLC [4]。有玩家提到这是 Vulkan 的 bug，很多 RDR2 PC 玩家都遇到了，PC 版有很多种 bug [3]。也有玩家表示虽然有很多 bug，但不会影响游戏体验 [2]。关于 glitch 问题，评论中未提及。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "bugs|bug",
+          "crash|崩溃",
+          "glitches|bug"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 3.64,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 27,
+        "game": "Red Dead Redemption 2",
+        "question": "How long is the main story?",
+        "mode": "agent",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "hours|小时",
+          "story|故事",
+          "length|时长"
+        ],
+        "sentiment": "positive",
+        "answer": "评论中未提及明确的主线时长数字,只有玩家给出的游玩时长参考:有玩家每天玩5小时、近3周才完成主线 [1];另有玩家在40小时游戏后完成了故事 [4]。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "hours|小时",
+          "story|故事",
+          "length|时长"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": false,
+        "n_sub_questions": 2,
+        "elapsed_sec": 2.66,
+        "cited_count": 2,
+        "error": null
+      },
+      {
+        "id": 28,
+        "game": "Red Dead Redemption 2",
+        "question": "How is the character development?",
+        "mode": "agent",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "arthur|亚瑟",
+          "character|角色",
+          "gang|帮派"
+        ],
+        "sentiment": "positive",
+        "answer": "评论普遍称赞《Red Dead Redemption 2》的角色发展（character development）。[1] 提到「Great storyline, character development and graphics」，认为值得通关；[2] 称其为年度游戏，并称赞「Amazing story, great graphics, great character development」；[3] 在单机部分列出「Amazing world building, Character development, Visuals, Soundtrack」，但指出线上模式很差；[4] 表示游戏的「storytelling, soundtracks and scores, action, character development, a vast world」等一切都堪称完美。整体对角色发展的评价非常正面。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.333,
+        "keywords_matched": [
+          "character|角色"
+        ],
+        "keywords_missed": [
+          "arthur|亚瑟",
+          "gang|帮派"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 3.94,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 29,
+        "game": "Red Dead Redemption 2",
+        "question": "Is Rockstar's monetization fair?",
+        "mode": "agent",
+        "expect_sentiment": "negative",
+        "expect_keywords": [
+          "rockstar|r星",
+          "microtransactions|氪金",
+          "shark|鲨鱼"
+        ],
+        "sentiment": "negative",
+        "answer": "根据召回片段，玩家普遍认为Rockstar的变现方式不公平。多人模式被指充满微交易和诱导购买的手段 [1][2]，在线模式被贪婪的微交易毁掉 [3]。有评论批评Rockstar利用GTA在线的鲨鱼卡收入，却未用于改善游戏 [1]，并指责其为了鲨鱼卡销售而放弃RDO [2][4]，甚至称在线内容是吞噬单机支持的「现金陷阱」 [3]。整体上，评论对Rockstar的变现公平性持负面态度。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.667,
+        "keywords_matched": [
+          "rockstar|r星",
+          "shark|鲨鱼"
+        ],
+        "keywords_missed": [
+          "microtransactions|氪金"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 3.83,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 30,
+        "game": "Red Dead Redemption 2",
+        "question": "How is the horse riding?",
+        "mode": "agent",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "horse|马",
+          "riding|骑行",
+          "control|操控"
+        ],
+        "sentiment": "positive",
+        "answer": "评论普遍对骑马体验给予正面评价。有玩家称其为「玩过的最好的骑马模拟器」,并称赞画面出色 [1];也有玩家称其为「终极 Barbie Race and Ride 体验」,认为从骑马到马鞍自定义都是玩过的最好的马游戏,唯一缺点是不能用抹布给马打肥皂清洗 [2]。此外有玩家提到买给女友后她整天骑马 [4]。另有评论提到可以给马取名 Kanye [3],但未直接评价骑马手感。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.333,
+        "keywords_matched": [
+          "horse|马"
+        ],
+        "keywords_missed": [
+          "riding|骑行",
+          "control|操控"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 2,
+        "elapsed_sec": 3.75,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 31,
+        "game": "Black Myth: Wukong",
+        "question": "Hello there!",
+        "mode": "agent",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "无关"
+        ],
+        "sentiment": "mixed",
+        "answer": "这个问题与 Steam 游戏评论无关,我帮不到。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "无关"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": true,
+        "n_sub_questions": 0,
+        "elapsed_sec": 0.89,
+        "cited_count": 0,
+        "error": null
+      },
+      {
+        "id": 32,
+        "game": "Black Myth: Wukong",
+        "question": "你是来拉屎的吧",
+        "mode": "agent",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "无关"
+        ],
+        "sentiment": "mixed",
+        "answer": "这个问题与 Steam 游戏评论无关,我帮不到。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "无关"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": true,
+        "n_sub_questions": 0,
+        "elapsed_sec": 0.81,
+        "cited_count": 0,
+        "error": null
+      },
+      {
+        "id": 33,
+        "game": "Black Myth: Wukong",
+        "question": "Who are you?",
+        "mode": "agent",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "无关"
+        ],
+        "sentiment": "mixed",
+        "answer": "这个问题与 Steam 游戏评论无关,我帮不到。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "无关"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": true,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.15,
+        "cited_count": 0,
+        "error": null
+      },
+      {
+        "id": 34,
+        "game": "Black Myth: Wukong",
+        "question": "What's the weather today?",
+        "mode": "agent",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "无关"
+        ],
+        "sentiment": "mixed",
+        "answer": "这个问题与 Steam 游戏评论无关,我帮不到。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "无关"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": true,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.08,
+        "cited_count": 0,
+        "error": null
+      },
+      {
+        "id": 35,
+        "game": "Black Myth: Wukong",
+        "question": "Tell me a joke",
+        "mode": "agent",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "无关"
+        ],
+        "sentiment": "mixed",
+        "answer": "这个问题与 Steam 游戏评论无关,我帮不到。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "无关"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": true,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.13,
+        "cited_count": 0,
+        "error": null
+      },
+      {
+        "id": 36,
+        "game": "Black Myth: Wukong",
+        "question": "How do I cook pasta?",
+        "mode": "agent",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "无关"
+        ],
+        "sentiment": "mixed",
+        "answer": "这个问题与 Steam 游戏评论无关,我帮不到。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "无关"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": true,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.33,
+        "cited_count": 0,
+        "error": null
+      },
+      {
+        "id": 37,
+        "game": "Black Myth: Wukong",
+        "question": "你好啊",
+        "mode": "agent",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "无关"
+        ],
+        "sentiment": "mixed",
+        "answer": "这个问题与 Steam 游戏评论无关,我帮不到。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "无关"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": true,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.28,
+        "cited_count": 0,
+        "error": null
+      },
+      {
+        "id": 38,
+        "game": "Black Myth: Wukong",
+        "question": "What is the meaning of life?",
+        "mode": "agent",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "无关"
+        ],
+        "sentiment": "mixed",
+        "answer": "这个问题与 Steam 游戏评论无关,我帮不到。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "无关"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": true,
+        "n_sub_questions": 0,
+        "elapsed_sec": 0.93,
+        "cited_count": 0,
+        "error": null
+      },
+      {
+        "id": 39,
+        "game": "Black Myth: Wukong",
+        "question": "你是谁",
+        "mode": "agent",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "无关"
+        ],
+        "sentiment": "mixed",
+        "answer": "这个问题与 Steam 游戏评论无关,我帮不到。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "无关"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": true,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.12,
+        "cited_count": 0,
+        "error": null
+      },
+      {
+        "id": 40,
+        "game": "Black Myth: Wukong",
+        "question": "What's 2+2?",
+        "mode": "agent",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "无关"
+        ],
+        "sentiment": "mixed",
+        "answer": "这个问题与 Steam 游戏评论无关,我帮不到。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "无关"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": true,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.23,
+        "cited_count": 0,
+        "error": null
+      },
+      {
+        "id": 41,
+        "game": "Black Myth: Wukong",
+        "question": "How is the combat AND the story?",
+        "mode": "agent",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "combat|战斗",
+          "story|故事"
+        ],
+        "sentiment": "mixed",
+        "answer": "战斗方面:评论普遍给予好评,称战斗系统与玩法机制「cool/fun」[2],boss 战令人难忘且有趣 [2],整体玩法机制执行得无可挑剔 [3],也有玩家认为战斗与魂类游戏相似 [4]。故事方面:评价存在分歧,有玩家称赞其叙事引人入胜、是年度游戏的竞争者 [1],并认为其叙事受《西游记》启发、内容丰富 [3],叙事风格最接近《战神》且准确呈现中国神话 [4];但也有玩家批评其叙事平庸、缺乏叙事张力与紧迫感 [2]。综合来看,战斗机制获得一致正面评价,而故事叙事则褒贬不一。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "combat|战斗",
+          "story|故事"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": false,
+        "n_sub_questions": 2,
+        "elapsed_sec": 3.49,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 42,
+        "game": "Black Myth: Wukong",
+        "question": "Is this game perfect? Any major flaws?",
+        "mode": "agent",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "optimization|优化",
+          "bug",
+          "performance|性能"
+        ],
+        "sentiment": "mixed",
+        "answer": "关于「是否完美」,多条评论称其完美:有玩家表示「This game is perfect in every aspect! 10/10」[1],「From fights to animations, this game is perfect in its own way」[2],「it was perfect, perfect, everything; down to the last minute details」[3],以及「Perfect in every way imaginable」[4]。关于「重大缺陷」,评论提到一些不足:有玩家认为游戏「objectively not finished」,并因不完整、隐形墙/无地图、剧情与主角问题各扣一分,给出 7/10 且不推荐 [2];也有玩家表示「It has some minor flaws but a good game nonetheless」[4],以及「Though it has some flaws, it is still beyond my expectation」[1]。另有评论仅提到在 Legion Go 上运行良好、无严重卡顿 [3],未涉及缺陷。综合来看,游戏被部分玩家视为完美,但也存在不完整、隐形墙/无地图、剧情等被指出的问题。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.0,
+        "keywords_matched": [],
+        "keywords_missed": [
+          "optimization|优化",
+          "bug",
+          "performance|性能"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 2,
+        "elapsed_sec": 4.4,
+        "cited_count": 7,
+        "error": null
+      },
+      {
+        "id": 43,
+        "game": "Black Myth: Wukong",
+        "question": "Should I buy it on PC or wait for a Steam Deck?",
+        "mode": "agent",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "pc",
+          "performance|性能",
+          "deck"
+        ],
+        "sentiment": "mixed",
+        "answer": "评论中未直接对比 PC 与 Steam Deck 的画质或帧率表现，但多条评论都提到 Steam Deck 上可以运行：有玩家表示「经过一些调整后运行得相当不错」[1]，也有玩家称「在 Steam Deck 上完美运行 30 fps，优化很好」[2]。另有玩家给出 Steam Deck 可玩性 7/10，并强烈建议使用 DLSS MOD，同时提到有人反映第二章之后会吃力 [4]。此外有玩家警告 Steam Deck 用户：如果一天内尝试超过 5 次不同的 Proton 版本，Denuvo 会封锁游戏访问 24 小时 [4]。因此，如果你追求更稳定的体验或不想折腾，评论中未提及 PC 与 Steam Deck 的直接购买建议；若选择 Steam Deck，需注意可能需要调整设置、使用 MOD，并避免频繁切换 Proton 版本 [1][2][4]。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.667,
+        "keywords_matched": [
+          "pc",
+          "deck"
+        ],
+        "keywords_missed": [
+          "performance|性能"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 4.61,
+        "cited_count": 3,
+        "error": null
+      },
+      {
+        "id": 44,
+        "game": "Black Myth: Wukong",
+        "question": "Is the DLC worth buying?",
+        "mode": "agent",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "dlc",
+          "worth|值得"
+        ],
+        "sentiment": "positive",
+        "answer": "评论中未提及 DLC 是否值得购买——所有召回片段中没有任何一条评价了已发售 DLC 的内容或价值。玩家们只是表达了对 DLC 的期待和渴望,例如「Shut up and take my money! I want DLC!」[1]、「Great game, waiting for the DLC」[2]、「good game good story i hope theres have a DLC」[3],以及希望有更难的 DLC「Monke want a harder DLC!」[4]。另有评论提到游戏未来会有 DLC,并将其视为加分项「it is going to have future DLC which is a bigger plus」[5]。由于 DLC 尚未推出或未被评价,无法判断其是否值得购买。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "dlc",
+          "worth|值得"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": true,
+        "n_sub_questions": 3,
+        "elapsed_sec": 4.19,
+        "cited_count": 5,
+        "error": null
+      },
+      {
+        "id": 45,
+        "game": "Black Myth: Wukong",
+        "question": "Will I enjoy this if I never played a souls game?",
+        "mode": "agent",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "souls|魂",
+          "difficult|难",
+          "beginner|新手"
+        ],
+        "sentiment": "positive",
+        "answer": "可以享受。有玩家表示自己并不擅长魂类游戏，但非常享受本作 [2]；也有玩家认为本作比魂类游戏更简单 [4]，并称其是「适合新手的魂lite」[2]。不过也有玩家认为它像是「非魂类游戏中的黑魂」[1]，暗示仍有一定难度。整体来看，即使没玩过魂类游戏，也有不少玩家推荐并享受本作。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "souls|魂",
+          "difficult|难",
+          "beginner|新手"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 3.91,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 46,
+        "game": "Black Myth: Wukong",
+        "question": "How is the soundtrack?",
+        "mode": "agent",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "music|音乐",
+          "soundtrack|配乐"
+        ],
+        "sentiment": "mixed",
+        "answer": "评论普遍称赞游戏的配乐和音乐非常出色，认为其优美、令人惊叹，是游戏的一大亮点 [1][2][3][4]。不过也有少数玩家反映音频存在技术问题，如音频每隔约30秒中断一次 [1]，以及过场动画中音频延迟严重 [2]。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "music|音乐",
+          "soundtrack|配乐"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 3.44,
+        "cited_count": 6,
+        "error": null
+      },
+      {
+        "id": 47,
+        "game": "Black Myth: Wukong",
+        "question": "Is it suitable for kids?",
+        "mode": "agent",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "violence|暴力",
+          "content|内容"
+        ],
+        "sentiment": "mixed",
+        "answer": "评论中未提及该游戏是否适合儿童或年龄分级信息。召回片段中仅有一条提到「family share」和「ADHD Friendly」（[1][2]），但均未涉及儿童适宜性或年龄分级；另有片段提到「NOT FRIENDLY WITH AMD CARDS」（[4]），指的是显卡兼容性而非儿童友好度。因此无法判断是否适合儿童。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.0,
+        "keywords_matched": [],
+        "keywords_missed": [
+          "violence|暴力",
+          "content|内容"
+        ],
+        "off_topic_hit": true,
+        "n_sub_questions": 3,
+        "elapsed_sec": 3.87,
+        "cited_count": 3,
+        "error": null
+      },
+      {
+        "id": 48,
+        "game": "Black Myth: Wukong",
+        "question": "Any tips for beginners?",
+        "mode": "agent",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "tip|建议",
+          "beginner|新手",
+          "advice|建议"
+        ],
+        "sentiment": "mixed",
+        "answer": "这个问题与 Steam 游戏评论无关,我帮不到。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.0,
+        "keywords_matched": [],
+        "keywords_missed": [
+          "tip|建议",
+          "beginner|新手",
+          "advice|建议"
+        ],
+        "off_topic_hit": true,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.13,
+        "cited_count": 0,
+        "error": null
+      },
+      {
+        "id": 49,
+        "game": "ELDEN RING",
+        "question": "How is it compared to Dark Souls?",
+        "mode": "agent",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "souls|魂",
+          "compared|对比",
+          "previous|前作"
+        ],
+        "sentiment": "positive",
+        "answer": "评论普遍将本作与《黑暗灵魂》系列作比较,认为它是「2022 年的黑暗灵魂」,例如有评论称其为「带马的黑暗灵魂」[1],或「像黑暗灵魂但更黑暗灵魂」[2];也有评论说「这游戏就像黑暗灵魂」[4]。在战斗机制方面,有评论指出本作是「黑暗灵魂的战斗机制结合《旷野之息》的开放世界,展现了 FromSoftware 迄今最好的作品」[1],并称赞战斗、机制、世界、剧情等都非常出色[4]。不过关于难度与《黑暗灵魂》的具体对比,评论中未提及。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 0.667,
+        "keywords_matched": [
+          "souls|魂",
+          "compared|对比"
+        ],
+        "keywords_missed": [
+          "previous|前作"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 3.82,
+        "cited_count": 5,
+        "error": null
+      },
+      {
+        "id": 50,
+        "game": "Red Dead Redemption 2",
+        "question": "How active are the online servers?",
+        "mode": "agent",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "online|在线",
+          "server|服务器",
+          "active|活跃"
+        ],
+        "sentiment": "negative",
+        "answer": "召回片段显示玩家对服务器状态的反馈普遍负面：有玩家称「server sucks」[1]，有玩家表示因 R* 服务器宕机而无法游玩离线单人游戏，且联系 Rockstar 支持无门 [2]，还有玩家指出游戏依赖 Rockstar 服务器、没有离线模式，并担忧未来服务器停止维护后无法再游玩 [3]。关于服务器活跃度或在线人数的具体数据，评论中未提及。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "online|在线",
+          "server|服务器",
+          "active|活跃"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": true,
+        "n_sub_questions": 2,
+        "elapsed_sec": 3.21,
+        "cited_count": 3,
+        "error": null
+      }
+    ],
+    "agent_reflect": [
+      {
+        "id": 1,
+        "game": "Black Myth: Wukong",
+        "question": "Is this game worth buying?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "worth|值得",
+          "buy|购买",
+          "money|金钱"
+        ],
+        "sentiment": "mixed",
+        "answer": "综合召回片段，多数玩家认为本作值得购买：有玩家称「monkey of war game worth buying」[1]、「absolute worth for buying full price」[2]、「definitely worth buying day 1」[3]、「Every penny is hell'ya worth」[4]，还有玩家表示「Buy it and have fun!」[5]、「真的是一款不错的3A大作，值得推荐」[8]。优点包括美术、剧情、战斗出色[7]、视觉惊艳[10]、动作RPG体验流畅[10]、扮演猿猴有趣[11]。但也有玩家给出不推荐，指出隐形墙无处不在、战斗重复、控制有时不灵敏、招式受限[12]，以及后期章节略显仓促[8]。总体而言，多数评论认为值得购买，但存在部分缺点。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 0.667,
+        "keywords_matched": [
+          "worth|值得",
+          "buy|购买"
+        ],
+        "keywords_missed": [
+          "money|金钱"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 5.81,
+        "cited_count": 10,
+        "error": null
+      },
+      {
+        "id": 2,
+        "game": "Black Myth: Wukong",
+        "question": "How is the combat system?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "combat|战斗",
+          "boss"
+        ],
+        "sentiment": "positive",
+        "answer": "综合召回片段，战斗系统整体评价积极：有玩家称其「有趣的战斗机制」[1]，并认为其战斗机制扎实、区别于一般魂类游戏[2]；也有玩家称其为「带有轻度魂类机制的第三人称动作游戏，战斗和Boss很棒」[3]。在战斗反馈方面，有玩家指出治疗按钮缺乏音频反馈，导致误判或重复治疗[1]；另有玩家高度评价「战斗手感极佳，尤其是架势切换机制」[3]。此外，有玩家提到难度较高但具有回报性，克服挑战可解锁新技能和物品[4]。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "combat|战斗",
+          "boss"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 5.1,
+        "cited_count": 6,
+        "error": null
+      },
+      {
+        "id": 3,
+        "game": "Black Myth: Wukong",
+        "question": "Are the boss fights well-designed?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "boss",
+          "fight|战斗",
+          "design|设计"
+        ],
+        "sentiment": "mixed",
+        "answer": "评论对 Boss 战设计的评价存在分歧。正面评价认为 Boss 战「史诗级」[1]，并且游戏「改变了对魂类游戏的看法」，是年度最佳[2]；也有评论称赞「设计出色、难度平衡良好」[1]。负面评价则认为「Boss 战糟糕」[4]，并批评游戏本质上是「Boss 模拟器」，缺乏探索、流程线性[3]。综合来看，Boss 战设计口碑两极，正面与负面意见并存。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 0.667,
+        "keywords_matched": [
+          "boss",
+          "design|设计"
+        ],
+        "keywords_missed": [
+          "fight|战斗"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 5,
+        "elapsed_sec": 8.1,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 4,
+        "game": "Black Myth: Wukong",
+        "question": "How is the story and plot?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "story|故事",
+          "chapter|章节",
+          "chinese|中国"
+        ],
+        "sentiment": "positive",
+        "answer": "关于《Black Myth: Wukong》的剧情与故事，召回评论整体评价偏正面。有玩家称其为「Amazing Story」[1]、「Good story」[2]，甚至表示是「Best story ive ever played, so far」[4]，也有评论提到「引人入胜的世界设定和故事」[4]。不过也存在批评声音，有玩家在称赞画面和战斗的同时质疑「where's the plot/story?」[1]。此外，有评论指出若难以理解剧情，可阅读《西游记》原著[2]，还有评论以调侃方式概括了剧情结构[3]。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.333,
+        "keywords_matched": [
+          "story|故事"
+        ],
+        "keywords_missed": [
+          "chapter|章节",
+          "chinese|中国"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 2,
+        "elapsed_sec": 5.66,
+        "cited_count": 7,
+        "error": null
+      },
+      {
+        "id": 5,
+        "game": "Black Myth: Wukong",
+        "question": "How is the optimization on PC?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "optimization|优化",
+          "performance|性能",
+          "fps|帧率"
+        ],
+        "sentiment": "mixed",
+        "answer": "PC 优化评价两极分化。负面方面，有玩家称着色器优化差（自 Starfield 以来最差）[2][4]，高端配置（7900xtx、7800x3d）在开场就崩溃闪退 [4]，高配 PC 在首个过场动画前就崩溃 [3]，4060 及以下显卡出现崩溃、掉帧甚至断电 [4]。正面方面，有玩家表示无卡顿、优化优于多数 3A 大作 [3]，也有玩家认为目前还需进一步优化但整体好玩 [1]。此外有玩家因 PC 配置不足退款转买 PS5 [1]，并指出需要高配 PC 才能获得沉浸体验 [2]。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.333,
+        "keywords_matched": [
+          "optimization|优化"
+        ],
+        "keywords_missed": [
+          "performance|性能",
+          "fps|帧率"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 4.94,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 6,
+        "game": "Black Myth: Wukong",
+        "question": "Is the game too difficult?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "difficult|难",
+          "hard|难",
+          "souls|魂"
+        ],
+        "sentiment": "positive",
+        "answer": "综合召回片段，游戏难度整体被描述为「有挑战性但平衡且令人满意」，并非过于困难。有玩家表示难度恰到好处，比魂类更偏硬核动作游戏 [1]；也有玩家认为难度平衡完美，战斗有趣，Boss战富有挑战性 [2]；还有玩家指出Boss战难度和强度可与《艾尔登法环》媲美，需要耐心和学习 [3]；另有玩家表示Boss战有挑战性，但游戏并不完全偏向魂类 [4]。关于难度等级，有玩家提到游戏很难且没有难度选择选项 [1]，对首次玩魂类游戏的玩家来说有点挑战，但通过练习可以克服 [2]，难度高但有回报，克服挑战能解锁新技能和物品 [3]，游戏初期很简单，但从每章开始难度逐渐增加 [4]。关于挑战性，玩家普遍认为游戏提供了「不错的挑战」[1]、「挑战性」[2]、「恰到好处的挑战」[3]。因此，多数评论认为难度具有挑战性但可接受，并非过于困难。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "difficult|难",
+          "hard|难",
+          "souls|魂"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 6.67,
+        "cited_count": 8,
+        "error": null
+      },
+      {
+        "id": 7,
+        "game": "Black Myth: Wukong",
+        "question": "Are there bugs and technical issues?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "bugs|bug",
+          "crash|崩溃",
+          "glitches|bug"
+        ],
+        "sentiment": "mixed",
+        "answer": "是的，评论中提到了不少bug和技术问题。有玩家反映游戏存在随机崩溃和AMD平台上的奇怪性能问题[1]；也有玩家在8月29日补丁后表示，之前卡顿严重，现在又频繁崩溃，技术问题反而更糟了[2]。性能方面，有玩家称游戏对硬件要求高，会有一些性能问题[3]；还有玩家用4070 Super只能跑90帧，有时感觉像20帧[4]。不过也有玩家认为游戏整体打磨得很好，基本没有bug[5]。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "bugs|bug",
+          "crash|崩溃",
+          "glitches|bug"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 4.84,
+        "cited_count": 5,
+        "error": null
+      },
+      {
+        "id": 8,
+        "game": "Black Myth: Wukong",
+        "question": "How long does it take to beat the game?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "hours|小时",
+          "chapter|章节",
+          "length|时长"
+        ],
+        "sentiment": "positive",
+        "answer": "根据召回片段,玩家通关时长大致在50小时左右:有玩家表示「About 50 hours in. Completed main story」[1],另有玩家在46小时[2]、53小时[4]、60小时[3]、61小时[1]等时长下完成游戏或达成100%完成度。综合来看,主线通关约需50小时上下,完整通关/全成就则可能在50-60小时以上。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.667,
+        "keywords_matched": [
+          "hours|小时",
+          "length|时长"
+        ],
+        "keywords_missed": [
+          "chapter|章节"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 5.94,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 9,
+        "game": "Black Myth: Wukong",
+        "question": "How is the graphics and visuals?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "graphics|画面",
+          "visuals|画面",
+          "beautiful|美"
+        ],
+        "sentiment": "positive",
+        "answer": "评论普遍高度赞扬《黑神话：悟空》的画面与视觉表现。有玩家称其为「crazy graphics and quality」并感到惊艳 [1]，也有人称其为「best game with best graphics ever」[4]。视觉设计方面，评论提到「breathtakingly beautiful world」、丰富细致的环境与流畅的角色动画 [1]，以及「visual is so good」[2]。即便给出不推荐评价的玩家也承认开场拥有「gorgeous visuals, incredible art direction」[3]，另有评论形容其为「visually stunning」并对其视觉设计与美术方向印象深刻 [4]。整体而言，画面与视觉设计获得一致好评。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "graphics|画面",
+          "visuals|画面",
+          "beautiful|美"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": false,
+        "n_sub_questions": 2,
+        "elapsed_sec": 7.92,
+        "cited_count": 6,
+        "error": null
+      },
+      {
+        "id": 10,
+        "game": "Black Myth: Wukong",
+        "question": "Is it good value for money?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "price|价格",
+          "value|价值",
+          "worth|值得"
+        ],
+        "sentiment": "positive",
+        "answer": "召回片段中仅有一条直接提及价格与性价比:[3] 明确表示「11/10 worth the full price」(11/10,值全价),属于正面评价。其余片段虽多为推荐([1][2][4] 等),但未涉及价格或性价比内容。综合来看,评论倾向于认为本作物有所值。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.667,
+        "keywords_matched": [
+          "price|价格",
+          "worth|值得"
+        ],
+        "keywords_missed": [
+          "value|价值"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 5,
+        "elapsed_sec": 8.58,
+        "cited_count": 1,
+        "error": null
+      },
+      {
+        "id": 11,
+        "game": "ELDEN RING",
+        "question": "Is Elden Ring worth buying?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "worth|值得",
+          "buy|购买"
+        ],
+        "sentiment": "positive",
+        "answer": "召回片段中未提及价格、性价比或优缺点等具体购买理由。所有片段均为推荐（Recommended），但内容多为情绪化呼喊或玩梗，例如 [1] 反复呼喊「ELDEN RING WHEEE」、[2] 仅写「ELDEN RING OOOHHHHH」、[3] 称其为「Great game as every other that came out from From Software」并附上评测链接、[4] 写「I Have Become The Elden Ring」。因此无法从评论中归纳出是否值得购买的具体依据。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "worth|值得",
+          "buy|购买"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": true,
+        "n_sub_questions": 5,
+        "elapsed_sec": 7.65,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 12,
+        "game": "ELDEN RING",
+        "question": "How is the open world exploration?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "open|开放",
+          "world|世界",
+          "exploration|探索"
+        ],
+        "sentiment": "positive",
+        "answer": "召回片段中关于开放世界探索的具体内容有限。部分评论将其描述为「开放世界黑暗之魂」[1],或称其为「有史以来最伟大的开放世界游戏之一」[2],还有评论称其为「魂类开放世界杰作」[1]。但关于探索玩法机制的具体细节,评论中未提及。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "open|开放",
+          "world|世界",
+          "exploration|探索"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": false,
+        "n_sub_questions": 5,
+        "elapsed_sec": 6.42,
+        "cited_count": 3,
+        "error": null
+      },
+      {
+        "id": 13,
+        "game": "ELDEN RING",
+        "question": "Are the boss fights good?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "boss",
+          "fight|战斗"
+        ],
+        "sentiment": "mixed",
+        "answer": "整体来看,多数评论认为 Boss 战质量很高。有玩家称「很喜欢 Boss 战,是有价值的挑战」[1],也有人把 Boss 战列为这款「杰作」的亮点之一[3],还有评论对「Boss 战的战斗、动作与音效设计」表示满意[3]。Boss 战数量丰富且各有弱点[2]。不过也有负面声音:一条不推荐的评论认为「Boss 战很烂,太多一击必杀的招式,这是懒惰廉价的设计」[4]。难度方面,有玩家指出「使用召唤可以大幅降低难度,即使不追求挑战的人也能享受 Boss 战」[1]。综合而言,Boss 战评价以正面为主,但存在关于一击必杀设计的批评。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "boss",
+          "fight|战斗"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 5.45,
+        "cited_count": 6,
+        "error": null
+      },
+      {
+        "id": 14,
+        "game": "ELDEN RING",
+        "question": "Is it too difficult for casual players?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "difficult|难",
+          "hard|难",
+          "casual|休闲"
+        ],
+        "sentiment": "mixed",
+        "answer": "评论中未提及。召回片段中只有 [3] 提到「This game is only for casual players, want something to relax after work or day off... fun and easy」,但这句明显是反讽,并未正面说明游戏对休闲玩家是否过于困难;其余片段均为无实质内容的欢呼或与难度无关的表述。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "difficult|难",
+          "hard|难",
+          "casual|休闲"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": true,
+        "n_sub_questions": 5,
+        "elapsed_sec": 5.57,
+        "cited_count": 1,
+        "error": null
+      },
+      {
+        "id": 15,
+        "game": "ELDEN RING",
+        "question": "How is the multiplayer and co-op?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "multiplayer|联机",
+          "coop|合作",
+          "online|在线"
+        ],
+        "sentiment": "positive",
+        "answer": "评论中未提及多人或合作模式的具体内容。召回片段中仅有对游戏整体的推荐与称赞,例如称其为「soulslike open-world masterpiece」[3]、「my favorite game on Steam」[1]、「game is a 10/10」[2],其余片段为无实质内容的感叹或玩梗[1][2][3][4],没有任何关于多人联机、合作游玩、召唤、入侵或 PvP 的描述。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 0.667,
+        "keywords_matched": [
+          "multiplayer|联机",
+          "coop|合作"
+        ],
+        "keywords_missed": [
+          "online|在线"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 4,
+        "elapsed_sec": 6.85,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 16,
+        "game": "ELDEN RING",
+        "question": "How deep is the lore?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "lore|背景",
+          "story|故事",
+          "dark|黑暗"
+        ],
+        "sentiment": "positive",
+        "answer": "根据召回片段,玩家普遍认为《艾尔登法环》的 lore 非常深厚。有评论称游戏「充满 lore 与冒险」[4],另有玩家表示「lore 广博且深入」[3],并提到「每个地方都有自己的故事」[2]。不过,关于 lore 深度的具体比较或环境叙事细节,评论中未提及。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.667,
+        "keywords_matched": [
+          "lore|背景",
+          "story|故事"
+        ],
+        "keywords_missed": [
+          "dark|黑暗"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 5,
+        "elapsed_sec": 6.51,
+        "cited_count": 3,
+        "error": null
+      },
+      {
+        "id": 17,
+        "game": "ELDEN RING",
+        "question": "Are there performance and stuttering issues?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "performance|性能",
+          "fps|帧率",
+          "stutter|卡顿"
+        ],
+        "sentiment": "mixed",
+        "answer": "是的,评论中提到了性能问题和卡顿问题。关于性能问题,有玩家表示尽管存在性能问题,这仍是其年度游戏[1];也有玩家称游戏很棒,只是有几个性能问题[2];还有玩家认为性能问题烦人但可应付[3];不过也有玩家表示自己幸运地没有遇到性能问题[4]。关于卡顿问题,有玩家提到前方有卡顿问题[1];有玩家称有帧卡顿问题但游戏很棒[2];有玩家表示两年后游戏仍有卡顿问题,并称这是一款被糟糕移植拖累的好游戏[3];还有玩家认为唯一拖后腿的就是卡顿问题,希望能被修复[4]。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.667,
+        "keywords_matched": [
+          "performance|性能",
+          "stutter|卡顿"
+        ],
+        "keywords_missed": [
+          "fps|帧率"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 2,
+        "elapsed_sec": 4.88,
+        "cited_count": 8,
+        "error": null
+      },
+      {
+        "id": 18,
+        "game": "ELDEN RING",
+        "question": "How long is the game?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "hours|小时",
+          "finish|通关",
+          "length|时长"
+        ],
+        "sentiment": "positive",
+        "answer": "评论中未提及具体的游戏时长。仅有片段提到 140 小时达成 90% 完成度 [1]，以及游戏「长度」值得重玩 [3]，但没有给出平均通关时长。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "hours|小时",
+          "finish|通关",
+          "length|时长"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": false,
+        "n_sub_questions": 5,
+        "elapsed_sec": 5.87,
+        "cited_count": 2,
+        "error": null
+      },
+      {
+        "id": 19,
+        "game": "ELDEN RING",
+        "question": "How is the magic system?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "magic|魔法",
+          "sorcery|魔法",
+          "build"
+        ],
+        "sentiment": "mixed",
+        "answer": "评论中未提及",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 0.0,
+        "keywords_matched": [],
+        "keywords_missed": [
+          "magic|魔法",
+          "sorcery|魔法",
+          "build"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 1.26,
+        "cited_count": 0,
+        "error": null
+      },
+      {
+        "id": 20,
+        "game": "ELDEN RING",
+        "question": "Is it good for newcomers to souls games?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "newcomers|新手",
+          "souls|魂",
+          "friendly|友好"
+        ],
+        "sentiment": "positive",
+        "answer": "评论普遍认为本作对魂系新手较为友好。有玩家称其为「newcomer-friendly Soulsborne game」，并指出丰富的武器、流派、召唤物等能平衡战斗难度，但也要做好面对难度的准备[1]；另有玩家表示它比其他魂系游戏「a lot more noob friendly」[3]。此外，有玩家自称讨厌魂系游戏却觉得本作「REALLY good」[3]，也有玩家认为它优于其他魂系作品[4]。不过也有评论强调难度依旧存在[1]，并称其为魂系游戏的「crack cocaine」[4]。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "newcomers|新手",
+          "souls|魂",
+          "friendly|友好"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 5.55,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 21,
+        "game": "Red Dead Redemption 2",
+        "question": "Is RDR2 worth buying?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "worth|值得",
+          "buy|购买"
+        ],
+        "sentiment": "mixed",
+        "answer": "综合召回片段，RDR2 值得购买，但存在明显争议。正面方面，有玩家明确表示「值得购买」[1]，并称游戏本身很好、玩法细节出色、剧情优秀，无论全价还是打折都值得入手[4]；另有玩家称赞玩法、画面、细节和剧情是纯粹的杰作[1]。负面方面，有玩家反馈游戏「bug 太多且充满性能问题」[2]，还有玩家认为 Rockstar 启动器和游戏性能毁了这款游戏[3]，并批评 Rockstar 抛弃了这款杰作、不再关心玩家[1]。因此整体评价为褒贬不一，购买前需考虑 PC 端性能与优化问题。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "worth|值得",
+          "buy|购买"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 4.95,
+        "cited_count": 5,
+        "error": null
+      },
+      {
+        "id": 22,
+        "game": "Red Dead Redemption 2",
+        "question": "How is the story?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "story|故事",
+          "arthur|亚瑟",
+          "emotional|感人"
+        ],
+        "sentiment": "positive",
+        "answer": "评论普遍高度评价本作的剧情。有玩家称其为「有史以来最好的剧情游戏」[2],也有人表示这是自己玩过最好的剧情[3],并称赞其叙事精良、开放世界细节丰富[1],剧情引人入胜、对话与配音出色[2],能推动整个游戏行业前进[3]。不过也有玩家在肯定剧情的同时批评线上模式糟糕[4]。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.0,
+        "keywords_matched": [],
+        "keywords_missed": [
+          "story|故事",
+          "arthur|亚瑟",
+          "emotional|感人"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 4.42,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 23,
+        "game": "Red Dead Redemption 2",
+        "question": "How is the open world?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "world|世界",
+          "exploration|探索",
+          "horse|马"
+        ],
+        "sentiment": "positive",
+        "answer": "评论普遍高度评价本作的开放世界,称其为 Rockstar 打造的最佳开放世界游戏 [1],甚至是有史以来最好的开放世界游戏 [2],并认为它是 2021 年最佳游戏 [3],也是周围最好的开放世界游戏之一 [4]。不过关于地图大小、探索细节或具体活动内容,评论中未提及。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.667,
+        "keywords_matched": [
+          "world|世界",
+          "exploration|探索"
+        ],
+        "keywords_missed": [
+          "horse|马"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 4,
+        "elapsed_sec": 6.54,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 24,
+        "game": "Red Dead Redemption 2",
+        "question": "How is the online mode?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "negative",
+        "expect_keywords": [
+          "online|在线",
+          "microtransactions|氪金",
+          "grind|刷"
+        ],
+        "sentiment": "mixed",
+        "answer": "线上模式评价褒贬不一。部分玩家认为线上模式足够有趣、可以玩 [1][3]，甚至称其「超级享受」[3]；但也有玩家认为线上模式并不好 [2]，且因外挂（hackers）横行而不推荐 [4]。此外，有玩家反映线上多人服务器体验极差，甚至需要先连手机热点才能验证游戏所有权 [1]（online multiplayer features），并称线上模式是「地球上最糟糕的东西」，毫无平静、稳定与乐趣可言，启动器也很烂 [1]（online mode stability）；还有玩家因 Twitch Prime 赏金猎人角色长期存在 bug 且客服无法解决，导致进度完全停滞 [3]（online multiplayer features），也有人直接称多人模式是个笑话 [4]（online multiplayer features）。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 0.333,
+        "keywords_matched": [
+          "online|在线"
+        ],
+        "keywords_missed": [
+          "microtransactions|氪金",
+          "grind|刷"
+        ],
+        "off_topic_hit": true,
+        "n_sub_questions": 3,
+        "elapsed_sec": 4.43,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 25,
+        "game": "Red Dead Redemption 2",
+        "question": "How is the shooting gameplay?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "shooting|射击",
+          "gun|枪",
+          "dead|死"
+        ],
+        "sentiment": "positive",
+        "answer": "整体射击玩法评价偏正面。多个片段称赞枪战手感有趣、出色:[1] 称「the gunplay is actually fun」,[2] 称「good gunplay」,[3] 称「Amazing Gunplay」,[4] 称「Shooting」是游戏亮点之一,另有片段称「the details and shooting mechanics are amazing」。不过也有负面反馈:[2] 的 Not Recommended 片段指出游戏对键鼠玩家没有优化,「There is no optimization for keyboard and mouse」,用手柄以外的操作方式玩射击会很难受。此外有片段以调侃口吻提到「shooting cowboy game」「Funny shooting innocent people game」,但未涉及具体手感评价。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 0.667,
+        "keywords_matched": [
+          "shooting|射击",
+          "gun|枪"
+        ],
+        "keywords_missed": [
+          "dead|死"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 5,
+        "elapsed_sec": 8.69,
+        "cited_count": 5,
+        "error": null
+      },
+      {
+        "id": 26,
+        "game": "Red Dead Redemption 2",
+        "question": "Are there bugs and glitches?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "bugs|bug",
+          "crash|崩溃",
+          "glitches|bug"
+        ],
+        "sentiment": "mixed",
+        "answer": "是的,评论中多次提到游戏存在 bug 和 glitch。有玩家直接抱怨「Many Bug and crash right now」[1],也有人称其为「Red Bug Redemption 2」并调侃 DLC 是「Crashes & Disconnections」[4]。有玩家指出这是 Vulkan bug,很多 PC 玩家都会遇到,并认为 PC 版有很多 bug[3]。另有玩家表示喜欢剧情但「it have lots of bug」,不过不影响游玩[2]。关于 glitch,有玩家提到线上模式「Still has alot of cheaters Glitches and Bugs」[1],也有玩家给出解决「RDR 2 exited unexpectedly」错误的方法,并称即使有这些 glitch、bug、错误和崩溃,游戏仍是杰作[2]。还有玩家提到被恶意玩家和 modder 用 glitch 把马弄出问题、被传送到火车前等[4]。不过也有玩家表示因「mixed」评价而困惑,自己在 Dell G3 笔记本上高画质运行,画面表现良好[3]。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "bugs|bug",
+          "crash|崩溃",
+          "glitches|bug"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": false,
+        "n_sub_questions": 5,
+        "elapsed_sec": 8.64,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 27,
+        "game": "Red Dead Redemption 2",
+        "question": "How long is the main story?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "hours|小时",
+          "story|故事",
+          "length|时长"
+        ],
+        "sentiment": "positive",
+        "answer": "评论中未提及主线故事的具体时长。有玩家提到「几乎3周、每天5小时」才完成主线故事 [1]，另有玩家提到「40小时游戏时间并完成故事」[4]，但这些都不是官方的主线时长数据。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "hours|小时",
+          "story|故事",
+          "length|时长"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": false,
+        "n_sub_questions": 4,
+        "elapsed_sec": 5.55,
+        "cited_count": 2,
+        "error": null
+      },
+      {
+        "id": 28,
+        "game": "Red Dead Redemption 2",
+        "question": "How is the character development?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "arthur|亚瑟",
+          "character|角色",
+          "gang|帮派"
+        ],
+        "sentiment": "positive",
+        "answer": "评论普遍称赞《Red Dead Redemption 2》的角色塑造（character development）。有玩家将其与剧情、画面并列，认为值得通关 [1]；也有人称其为年度游戏，并特别提到出色的角色发展 [2]；还有评论把角色塑造与世界观、视觉、原声带一同列为单人模式的亮点，同时批评线上模式 [3]；另有玩家表示这款游戏超越了时代，故事、原声、动作、角色发展、广阔世界等一切都堪称完美 [4]。此外，多条评论以 Arthur Morgan 为梗或表达喜爱 [5][6][7][8]，但未具体分析其角色弧光。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.667,
+        "keywords_matched": [
+          "arthur|亚瑟",
+          "character|角色"
+        ],
+        "keywords_missed": [
+          "gang|帮派"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 4,
+        "elapsed_sec": 7.02,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 29,
+        "game": "Red Dead Redemption 2",
+        "question": "Is Rockstar's monetization fair?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "negative",
+        "expect_keywords": [
+          "rockstar|r星",
+          "microtransactions|氪金",
+          "shark|鲨鱼"
+        ],
+        "sentiment": "negative",
+        "answer": "评论普遍认为 Rockstar 的变现方式不公平。玩家指出其其他主要游戏存在「掠夺性变现手法」[1]，多人模式「充斥着微交易以及诱导你购买微交易的手段」[1]，且「被贪婪的微交易毁掉」[3]。有玩家批评 Rockstar 把 RDO 置于「生命维持」状态，转而「用鲨鱼卡去收割新一代玩家」[2]，并称其因 GTA 在线的鲨鱼卡销售而彻底放弃了 RDR2 的更新[4]。关于 Red Dead Online 的金条，评论称合作内容「被付费墙锁住（金条）」，不买金条就只能做低收益任务，而每日挑战被设计成「成瘾机制」以维持登录[2]。整体上，评论认为这种变现方式对玩家不公平。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.667,
+        "keywords_matched": [
+          "rockstar|r星",
+          "shark|鲨鱼"
+        ],
+        "keywords_missed": [
+          "microtransactions|氪金"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 5,
+        "elapsed_sec": 8.91,
+        "cited_count": 6,
+        "error": null
+      },
+      {
+        "id": 30,
+        "game": "Red Dead Redemption 2",
+        "question": "How is the horse riding?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "horse|马",
+          "riding|骑行",
+          "control|操控"
+        ],
+        "sentiment": "positive",
+        "answer": "评论普遍对骑马体验给予正面评价。有玩家称其为「我玩过的最好的骑马模拟器」,并称赞画面出色 [1];也有玩家称其为「终极 Barbie Race and Ride 体验」,认为从骑马到马鞍自定义都是「我玩过的最棒的马游戏」,唯一缺点是不能用抹布给马打肥皂清洗 [2]。另有玩家提到可以给马取名 Kanye [3],以及买了给女友后她「整天骑马」 [4]。整体来看,骑马是受到好评的核心玩法之一。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.333,
+        "keywords_matched": [
+          "horse|马"
+        ],
+        "keywords_missed": [
+          "riding|骑行",
+          "control|操控"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 2,
+        "elapsed_sec": 4.79,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 31,
+        "game": "Black Myth: Wukong",
+        "question": "Hello there!",
+        "mode": "agent_reflect",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "无关"
+        ],
+        "sentiment": "mixed",
+        "answer": "这个问题与 Steam 游戏评论无关,我帮不到。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "无关"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": true,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.1,
+        "cited_count": 0,
+        "error": null
+      },
+      {
+        "id": 32,
+        "game": "Black Myth: Wukong",
+        "question": "你是来拉屎的吧",
+        "mode": "agent_reflect",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "无关"
+        ],
+        "sentiment": "mixed",
+        "answer": "这个问题与 Steam 游戏评论无关,我帮不到。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "无关"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": true,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.01,
+        "cited_count": 0,
+        "error": null
+      },
+      {
+        "id": 33,
+        "game": "Black Myth: Wukong",
+        "question": "Who are you?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "无关"
+        ],
+        "sentiment": "mixed",
+        "answer": "这个问题与 Steam 游戏评论无关,我帮不到。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "无关"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": true,
+        "n_sub_questions": 0,
+        "elapsed_sec": 0.99,
+        "cited_count": 0,
+        "error": null
+      },
+      {
+        "id": 34,
+        "game": "Black Myth: Wukong",
+        "question": "What's the weather today?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "无关"
+        ],
+        "sentiment": "mixed",
+        "answer": "这个问题与 Steam 游戏评论无关,我帮不到。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "无关"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": true,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.08,
+        "cited_count": 0,
+        "error": null
+      },
+      {
+        "id": 35,
+        "game": "Black Myth: Wukong",
+        "question": "Tell me a joke",
+        "mode": "agent_reflect",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "无关"
+        ],
+        "sentiment": "mixed",
+        "answer": "这个问题与 Steam 游戏评论无关,我帮不到。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "无关"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": true,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.16,
+        "cited_count": 0,
+        "error": null
+      },
+      {
+        "id": 36,
+        "game": "Black Myth: Wukong",
+        "question": "How do I cook pasta?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "无关"
+        ],
+        "sentiment": "mixed",
+        "answer": "这个问题与 Steam 游戏评论无关,我帮不到。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "无关"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": true,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.3,
+        "cited_count": 0,
+        "error": null
+      },
+      {
+        "id": 37,
+        "game": "Black Myth: Wukong",
+        "question": "你好啊",
+        "mode": "agent_reflect",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "无关"
+        ],
+        "sentiment": "mixed",
+        "answer": "这个问题与 Steam 游戏评论无关,我帮不到。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "无关"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": true,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.01,
+        "cited_count": 0,
+        "error": null
+      },
+      {
+        "id": 38,
+        "game": "Black Myth: Wukong",
+        "question": "What is the meaning of life?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "无关"
+        ],
+        "sentiment": "mixed",
+        "answer": "这个问题与 Steam 游戏评论无关,我帮不到。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "无关"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": true,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.07,
+        "cited_count": 0,
+        "error": null
+      },
+      {
+        "id": 39,
+        "game": "Black Myth: Wukong",
+        "question": "你是谁",
+        "mode": "agent_reflect",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "无关"
+        ],
+        "sentiment": "mixed",
+        "answer": "这个问题与 Steam 游戏评论无关,我帮不到。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "无关"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": true,
+        "n_sub_questions": 0,
+        "elapsed_sec": 0.95,
+        "cited_count": 0,
+        "error": null
+      },
+      {
+        "id": 40,
+        "game": "Black Myth: Wukong",
+        "question": "What's 2+2?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "无关"
+        ],
+        "sentiment": "mixed",
+        "answer": "这个问题与 Steam 游戏评论无关,我帮不到。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "无关"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": true,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.21,
+        "cited_count": 0,
+        "error": null
+      },
+      {
+        "id": 41,
+        "game": "Black Myth: Wukong",
+        "question": "How is the combat AND the story?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "combat|战斗",
+          "story|故事"
+        ],
+        "sentiment": "mixed",
+        "answer": "战斗方面:多数评论给予正面评价,称战斗有趣[1]、令人惊叹[4],并提到技能树、法术、变身等系统[4];但也有评论认为战斗不够好,相比其他游戏过于重复、缺乏深度[3]。剧情方面:评论普遍正面,称叙事引人入胜[1]、内容丰富,灵感来自《西游记》[3],叙事风格最接近《战神》并准确呈现中国神话[4];但有评论批评剧情平庸、缺乏叙事张力[2]。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.5,
+        "keywords_matched": [
+          "combat|战斗"
+        ],
+        "keywords_missed": [
+          "story|故事"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 2,
+        "elapsed_sec": 5.09,
+        "cited_count": 5,
+        "error": null
+      },
+      {
+        "id": 42,
+        "game": "Black Myth: Wukong",
+        "question": "Is this game perfect? Any major flaws?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "optimization|优化",
+          "bug",
+          "performance|性能"
+        ],
+        "sentiment": "mixed",
+        "answer": "并非完美。有评论称其为完美[1][2][3]，但也有评论指出存在重大缺陷：游戏未完成、故事线不完整、有隐形墙且无地图[2]；技术问题如随机崩溃和AMD性能问题[4]；以及杂兵缺乏吸引力、探索容易迷路[1][2]。综合来看，游戏优秀但存在明显缺陷。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.333,
+        "keywords_matched": [
+          "performance|性能"
+        ],
+        "keywords_missed": [
+          "optimization|优化",
+          "bug"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 5.18,
+        "cited_count": 7,
+        "error": null
+      },
+      {
+        "id": 43,
+        "game": "Black Myth: Wukong",
+        "question": "Should I buy it on PC or wait for a Steam Deck?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "pc",
+          "performance|性能",
+          "deck"
+        ],
+        "sentiment": "mixed",
+        "answer": "评论中未提及 Steam Deck 的正式发售日期，因此无法判断是否值得等待。就现有片段来看，Steam Deck 上可以运行本作：有玩家表示经过一些调整后运行得不错 [1]，也有玩家称在 Steam Deck 上能稳定 30 fps、优化很好 [2]，还有玩家给出 Steam Deck 可玩性 7/10 并推荐使用 DLSS MOD [3]。但需要注意风险：有玩家警告使用 Denuvo 时，如果一天内尝试超过 5 次不同的 Proton 版本，会被封锁 24 小时无法进入游戏 [4]。PC 端方面，有玩家因电脑配置太低而退款并转买 PS5 [5]，也有人表示需要高配置 PC 才能获得沉浸体验 [6]，还有高配 PC 在开场动画前就崩溃 [7]，以及 4060 及以下显卡出现崩溃、掉帧、电脑突然断电等糟糕体验 [8]。综合来看，若你的 PC 配置较高可直接购买 PC 版；若配置一般或想用 Steam Deck，则需接受画质/帧数妥协与 Denuvo 封锁风险，而是否应等待 Steam Deck 版本则评论中未提及。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.667,
+        "keywords_matched": [
+          "pc",
+          "deck"
+        ],
+        "keywords_missed": [
+          "performance|性能"
+        ],
+        "off_topic_hit": true,
+        "n_sub_questions": 5,
+        "elapsed_sec": 8.66,
+        "cited_count": 8,
+        "error": null
+      },
+      {
+        "id": 44,
+        "game": "Black Myth: Wukong",
+        "question": "Is the DLC worth buying?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "dlc",
+          "worth|值得"
+        ],
+        "sentiment": "mixed",
+        "answer": "评论中未提及 DLC 是否值得购买的具体评价。召回片段中玩家普遍表达的是对 DLC 的期待（如「Shut up and take my money! I want DLC!」[1]、「waiting for the DLC」[2]、「i hope theres have a DLC」[3]、「Monke want a harder DLC!」[4]），以及认为游戏将有未来 DLC 是加分项（「it is going to have future DLC which is a bigger plus」[4]），但没有任何片段实际评价 DLC 本身的内容、价格或是否值得购买。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "dlc",
+          "worth|值得"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": false,
+        "n_sub_questions": 5,
+        "elapsed_sec": 7.6,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 45,
+        "game": "Black Myth: Wukong",
+        "question": "Will I enjoy this if I never played a souls game?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "souls|魂",
+          "difficult|难",
+          "beginner|新手"
+        ],
+        "sentiment": "positive",
+        "answer": "可以享受。有玩家表示自己并不擅长魂类游戏，但非常喜欢这款游戏[2]；也有玩家称游戏比魂类游戏更简单[3][4]，甚至形容它是「适合新手的魂类轻量版」，对魂系老玩家来说战斗很简单[1]。此外还有玩家单纯因为「猴子冲冲冲」就获得了乐趣[3]。因此即使没玩过魂类游戏，也有不少玩家推荐并享受本作。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 0.667,
+        "keywords_matched": [
+          "souls|魂",
+          "beginner|新手"
+        ],
+        "keywords_missed": [
+          "difficult|难"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 5.24,
+        "cited_count": 4,
+        "error": null
+      },
+      {
+        "id": 46,
+        "game": "Black Myth: Wukong",
+        "question": "How is the soundtrack?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "positive",
+        "expect_keywords": [
+          "music|音乐",
+          "soundtrack|配乐"
+        ],
+        "sentiment": "positive",
+        "answer": "整体评价非常正面。多个召回片段称赞配乐出色：有玩家称游戏「great soundtrack」[1]，也有玩家表示「Story and soundtrack pretty good」[2]，还有玩家认为游戏拥有「absolutely amazing graphics as well as soundtrack」[3]，并提到「Great Intro, Graphics, Soundtrack Gameplay」[4]。在音乐方面，玩家称「the art and the music」令人惊叹[1]，认为「good combat, good graphic and music」[2]，并形容「incredible music」[3]，甚至称其为「Game of the Year」且「Visuals, Music, Story」都令人惊叹[4]。音频方面，有玩家称赞「great audio」[3]，但也有玩家反映音频存在技术问题，如「audio also keeps cutting out about every 30 seconds」[1]以及「Audio lag is extremely delayed in cut scenes」[2]。综合来看，配乐和音乐获得高度评价，但音频技术问题被部分玩家提及。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "music|音乐",
+          "soundtrack|配乐"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": false,
+        "n_sub_questions": 3,
+        "elapsed_sec": 6.79,
+        "cited_count": 11,
+        "error": null
+      },
+      {
+        "id": 47,
+        "game": "Black Myth: Wukong",
+        "question": "Is it suitable for kids?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "violence|暴力",
+          "content|内容"
+        ],
+        "sentiment": "mixed",
+        "answer": "评论中未提及儿童适宜性或年龄分级的相关信息。所有召回片段均未讨论游戏是否适合儿童、ESRB 分级或家长指南,内容主要涉及游戏品质、战斗、销量与个人感受。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.5,
+        "keywords_matched": [
+          "content|内容"
+        ],
+        "keywords_missed": [
+          "violence|暴力"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 5,
+        "elapsed_sec": 5.91,
+        "cited_count": 0,
+        "error": null
+      },
+      {
+        "id": 48,
+        "game": "Black Myth: Wukong",
+        "question": "Any tips for beginners?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "tip|建议",
+          "beginner|新手",
+          "advice|建议"
+        ],
+        "sentiment": "mixed",
+        "answer": "这个问题与 Steam 游戏评论无关,我帮不到。",
+        "sentiment_correct": true,
+        "keyword_hit_rate": 0.0,
+        "keywords_matched": [],
+        "keywords_missed": [
+          "tip|建议",
+          "beginner|新手",
+          "advice|建议"
+        ],
+        "off_topic_hit": true,
+        "n_sub_questions": 0,
+        "elapsed_sec": 1.28,
+        "cited_count": 0,
+        "error": null
+      },
+      {
+        "id": 49,
+        "game": "ELDEN RING",
+        "question": "How is it compared to Dark Souls?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "souls|魂",
+          "compared|对比",
+          "previous|前作"
+        ],
+        "sentiment": "positive",
+        "answer": "评论普遍将《ELDEN RING》与《Dark Souls》系列作类比:有玩家称其为「2022 年的黑暗之魂,但有马」[1],或「像黑暗之魂,但更加黑暗之魂」[2];也有评论形容它是「加了辣酱的《黑暗之魂 2》」[4],或直接说「这款游戏就像《黑暗之魂》」[4]。在战斗机制方面,有玩家指出它把《黑暗之魂》的战斗机制与《塞尔达传说:旷野之息》的开放世界结合,是 FromSoftware 迄今最出色的作品[1],并称赞其战斗、机制、世界、剧情等各方面都非常出色[4]。关于与《黑暗之魂》的具体难度对比,评论中未提及。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 0.667,
+        "keywords_matched": [
+          "souls|魂",
+          "compared|对比"
+        ],
+        "keywords_missed": [
+          "previous|前作"
+        ],
+        "off_topic_hit": false,
+        "n_sub_questions": 5,
+        "elapsed_sec": 7.92,
+        "cited_count": 5,
+        "error": null
+      },
+      {
+        "id": 50,
+        "game": "Red Dead Redemption 2",
+        "question": "How active are the online servers?",
+        "mode": "agent_reflect",
+        "expect_sentiment": "mixed",
+        "expect_keywords": [
+          "online|在线",
+          "server|服务器",
+          "active|活跃"
+        ],
+        "sentiment": "negative",
+        "answer": "召回片段中未提及在线服务器活跃度的具体数据或玩家数量统计。仅有的相关信息是负面体验：有玩家反映游戏过程中会不断掉线 [4]，也有玩家称服务器很差 [3]，还有人因服务器维护无法游玩单人模式 [2]。另有一条正面评论提到服务器有所改善 [1]。关于在线玩家数量，有玩家表示自 Rockstar 宣布停止支持后外挂泛滥，每局至少有一个外挂，感叹「R.I.P. Red Dead Redemption 2 online」[2]。整体来看，评论中未提及服务器活跃度的量化信息。",
+        "sentiment_correct": false,
+        "keyword_hit_rate": 1.0,
+        "keywords_matched": [
+          "online|在线",
+          "server|服务器",
+          "active|活跃"
+        ],
+        "keywords_missed": [],
+        "off_topic_hit": true,
+        "n_sub_questions": 5,
+        "elapsed_sec": 7.22,
+        "cited_count": 4,
+        "error": null
+      }
+    ]
+  }
+}

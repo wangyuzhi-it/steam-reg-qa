@@ -1,0 +1,485 @@
+2026-09-23 17:20:38,325 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5070
+2026-09-23 17:20:38,325 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 17:20:47,370 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5071
+2026-09-23 17:20:47,370 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 17:20:50,489 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 17:20:50] "GET /health HTTP/1.1" 200 -
+2026-09-23 17:21:57,179 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5072
+2026-09-23 17:21:57,181 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 17:25:10,740 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5073
+2026-09-23 17:25:10,741 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 17:25:13,857 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 17:25:13] "GET /health HTTP/1.1" 200 -
+2026-09-23 17:27:21,297 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5074
+2026-09-23 17:27:21,297 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 17:29:30,283 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5075
+2026-09-23 17:29:30,284 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 17:29:33,371 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 17:29:33] "GET /health HTTP/1.1" 200 -
+2026-09-23 17:30:10,442 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5076
+2026-09-23 17:30:10,443 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 17:30:13,538 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 17:30:13] "GET /games HTTP/1.1" 200 -
+2026-09-23 17:30:13,546 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 17:30:13] "GET / HTTP/1.1" 200 -
+2026-09-23 17:30:50,932 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5079
+2026-09-23 17:30:50,932 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 17:33:05,884 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5080
+2026-09-23 17:33:05,884 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 17:35:47,738 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5083
+2026-09-23 17:35:47,739 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 17:35:49,829 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 17:35:49] "GET /health HTTP/1.1" 200 -
+2026-09-23 17:37:40,243 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5085
+2026-09-23 17:37:40,243 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 17:37:42,312 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 17:37:42] "GET /health HTTP/1.1" 200 -
+2026-09-23 17:37:57,626 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5086
+2026-09-23 17:37:57,627 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 17:37:59,588 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 17:37:59] "GET /health HTTP/1.1" 200 -
+2026-09-23 17:39:34,349 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5086
+2026-09-23 17:39:34,350 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 17:39:36,393 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 17:39:36] "GET /health HTTP/1.1" 200 -
+2026-09-23 17:41:11,243 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5086
+2026-09-23 17:41:11,243 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 17:41:13,301 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 17:41:13] "GET /health HTTP/1.1" 200 -
+2026-09-23 17:42:47,951 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5086
+2026-09-23 17:42:47,952 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 17:42:50,017 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 17:42:50] "GET /health HTTP/1.1" 200 -
+2026-09-23 17:44:35,461 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5087
+2026-09-23 17:44:35,461 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 17:44:37,109 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 17:44:37] "GET /health HTTP/1.1" 200 -
+2026-09-23 17:44:37,126 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 17:44:37] "[31m[1mPOST /ask HTTP/1.1[0m" 400 -
+2026-09-23 17:45:57,674 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5087
+2026-09-23 17:45:57,675 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 17:45:59,548 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 17:45:59] "GET /health HTTP/1.1" 200 -
+2026-09-23 17:45:59,569 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 17:45:59] "[31m[1mPOST /ask HTTP/1.1[0m" 400 -
+2026-09-23 17:47:40,802 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5088
+2026-09-23 17:47:40,802 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 17:49:06,136 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5091
+2026-09-23 17:49:06,137 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 17:49:08,242 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 17:49:08] "GET /health HTTP/1.1" 200 -
+2026-09-23 17:49:08,284 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 17:49:08] "[31m[1mPOST /ask HTTP/1.1[0m" 400 -
+2026-09-23 17:49:24,329 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5091
+2026-09-23 17:49:24,330 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 17:49:26,377 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 17:49:26] "GET /health HTTP/1.1" 200 -
+2026-09-23 17:49:26,412 INFO app POST /ask raw=61 bytes ct=application/json
+2026-09-23 17:49:26,413 WARNING app json parse failed, raw body: b'{question:worth?,game:Black Myth: Wukong,top_k:2,agent:false}'
+2026-09-23 17:49:26,415 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 17:49:26] "[31m[1mPOST /ask HTTP/1.1[0m" 400 -
+2026-09-23 17:49:55,949 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5091
+2026-09-23 17:49:55,949 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 17:49:58,004 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 17:49:58] "GET /health HTTP/1.1" 200 -
+2026-09-23 17:49:58,045 INFO app POST /ask raw=0 bytes ct=application/json
+2026-09-23 17:49:58,045 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 17:49:58] "[31m[1mPOST /ask HTTP/1.1[0m" 400 -
+2026-09-23 17:50:07,045 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5092
+2026-09-23 17:50:07,045 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 17:50:08,864 INFO app POST /ask raw=87 bytes ct=application/json
+2026-09-23 17:50:08,864 WARNING app json parse failed, raw body: b'{"question": "worth buying?", "game": "Black Myth: Wukong", "top_k": 3, "agent": false}'
+2026-09-23 17:50:08,865 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 17:50:08] "[31m[1mPOST /ask HTTP/1.1[0m" 400 -
+2026-09-23 17:50:18,413 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5092
+2026-09-23 17:50:18,413 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 17:50:20,158 INFO app POST /ask raw=87 bytes ct=application/json charset=None
+2026-09-23 17:50:20,159 WARNING app json parse failed, raw body: b'{"question": "worth buying?", "game": "Black Myth: Wukong", "top_k": 3, "agent": false}'
+2026-09-23 17:50:20,159 ERROR app force json raised: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2026-09-23 17:50:20,159 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 17:50:20] "[31m[1mPOST /ask HTTP/1.1[0m" 400 -
+2026-09-23 17:50:35,795 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5092
+2026-09-23 17:50:35,795 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 17:50:37,664 INFO app POST /ask raw=87 bytes ct=application/json charset=None
+2026-09-23 17:50:37,665 INFO app manual json ok: keys=['question', 'game', 'top_k', 'agent']
+2026-09-23 17:51:45,159 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5092
+2026-09-23 17:51:45,159 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 17:51:47,049 INFO app POST /ask raw=87 bytes ct=application/json charset=None
+2026-09-23 17:51:47,050 INFO app manual json ok: keys=['question', 'game', 'top_k', 'agent']
+2026-09-23 17:52:57,363 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5092
+2026-09-23 17:52:57,363 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 17:52:59,124 INFO app POST /ask raw=87 bytes ct=application/json charset=None
+2026-09-23 17:52:59,124 INFO app manual json ok: keys=['question', 'game', 'top_k', 'agent']
+2026-09-23 17:54:11,202 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5092
+2026-09-23 17:54:11,202 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 17:54:13,306 INFO app POST /ask raw=87 bytes ct=application/json charset=None
+2026-09-23 17:54:13,306 INFO app manual json ok: keys=['question', 'game', 'top_k', 'agent']
+2026-09-23 17:54:13,306 INFO app get_agent(Black Myth: Wukong) start
+2026-09-23 17:54:13,306 INFO app loading retriever for Black Myth: Wukong
+2026-09-23 17:54:13,402 INFO rag.registry ensure_loaded done for Black Myth: Wukong, retrievers cached=0
+2026-09-23 17:55:31,837 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5092
+2026-09-23 17:55:31,837 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 17:55:33,932 INFO app POST /ask raw=87 bytes ct=application/json charset=None
+2026-09-23 17:55:33,932 INFO app manual json ok: keys=['question', 'game', 'top_k', 'agent']
+2026-09-23 17:55:33,932 INFO app get_agent(Black Myth: Wukong) start
+2026-09-23 17:55:33,932 INFO app loading retriever for Black Myth: Wukong
+2026-09-23 17:55:34,025 INFO rag.registry ensure_loaded done for Black Myth: Wukong, retrievers cached=0
+2026-09-23 17:55:34,025 INFO rag.registry about to acquire lock
+2026-09-23 17:55:34,025 INFO rag.registry lock acquired, check cache
+2026-09-23 17:55:34,025 INFO rag.registry cache miss, get_entry
+2026-09-23 17:56:45,535 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5092
+2026-09-23 17:56:45,536 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 17:56:47,532 INFO app POST /ask raw=87 bytes ct=application/json charset=None
+2026-09-23 17:56:47,532 INFO app manual json ok: keys=['question', 'game', 'top_k', 'agent']
+2026-09-23 17:56:47,532 INFO app get_agent(Black Myth: Wukong) start
+2026-09-23 17:56:47,532 INFO app loading retriever for Black Myth: Wukong
+2026-09-23 17:56:47,640 INFO rag.registry ensure_loaded done for Black Myth: Wukong, retrievers cached=0
+2026-09-23 17:56:47,641 INFO rag.registry about to acquire lock
+2026-09-23 17:56:47,641 INFO rag.registry lock acquired, check cache
+2026-09-23 17:56:47,641 INFO rag.registry cache miss, get_entry
+2026-09-23 17:56:47,641 INFO rag.registry get_entry(Black Myth: Wukong) called
+2026-09-23 17:57:56,644 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5092
+2026-09-23 17:57:56,644 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 17:57:58,702 INFO app POST /ask raw=87 bytes ct=application/json charset=None
+2026-09-23 17:57:58,702 INFO app manual json ok: keys=['question', 'game', 'top_k', 'agent']
+2026-09-23 17:57:58,702 INFO app get_agent(Black Myth: Wukong) start
+2026-09-23 17:57:58,702 INFO app loading retriever for Black Myth: Wukong
+2026-09-23 17:57:58,803 INFO rag.registry ensure_loaded done for Black Myth: Wukong, retrievers cached=0
+2026-09-23 17:57:58,803 INFO rag.registry about to acquire lock
+2026-09-23 17:57:58,803 INFO rag.registry lock acquired, check cache
+2026-09-23 17:57:58,803 INFO rag.registry cache miss, get_entry
+2026-09-23 17:57:58,803 INFO rag.registry get_entry(Black Myth: Wukong) called
+2026-09-23 17:57:58,803 INFO rag.registry get_entry ensured, entries keys=['Black Myth: Wukong', 'ELDEN RING', 'Red Dead Redemption 2']
+2026-09-23 17:57:58,803 INFO rag.registry get_entry returning for Black Myth: Wukong
+2026-09-23 17:57:58,803 INFO rag.registry got entry Black Myth: Wukong -> D:\ProgramProjects\steam_games_comment_ai_analyzer\data\processed\reviews_black_myth_wukong.csv, building TfIdfRetriever
+2026-09-23 17:57:58,831 INFO rag.retriever building tfidf index for reviews_black_myth_wukong.csv (2194 docs)
+2026-09-23 17:57:59,211 INFO rag.retriever tfidf ready: vocab=50000, matrix=(2194, 50000)
+2026-09-23 17:57:59,211 INFO rag.registry TfIdfRetriever ready for Black Myth: Wukong
+2026-09-23 17:57:59,211 INFO app retriever loaded for Black Myth: Wukong, building agent
+2026-09-23 17:57:59,211 INFO app agent built for Black Myth: Wukong
+2026-09-23 17:57:59,211 INFO app agent ready, calling llm question='worth buying?' game=Black Myth: Wukong top_k=3
+2026-09-23 17:58:01,553 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 17:58:01] "POST /ask HTTP/1.1" 200 -
+2026-09-23 17:58:11,931 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5092
+2026-09-23 17:58:11,932 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 17:58:14,019 INFO app POST /ask raw=87 bytes ct=application/json charset=None
+2026-09-23 17:58:14,019 INFO app manual json ok: keys=['question', 'game', 'top_k', 'agent']
+2026-09-23 17:58:14,019 INFO app get_agent(Black Myth: Wukong) start
+2026-09-23 17:58:14,019 INFO app loading retriever for Black Myth: Wukong
+2026-09-23 17:58:14,114 INFO rag.registry ensure_loaded done for Black Myth: Wukong, retrievers cached=0
+2026-09-23 17:58:14,114 INFO rag.registry about to acquire lock
+2026-09-23 17:58:14,114 INFO rag.registry lock acquired, check cache
+2026-09-23 17:58:14,114 INFO rag.registry cache miss, get_entry
+2026-09-23 17:58:14,114 INFO rag.registry get_entry(Black Myth: Wukong) called
+2026-09-23 17:58:14,114 INFO rag.registry get_entry ensured, entries keys=['Black Myth: Wukong', 'ELDEN RING', 'Red Dead Redemption 2']
+2026-09-23 17:58:14,114 INFO rag.registry get_entry returning for Black Myth: Wukong
+2026-09-23 17:58:14,115 INFO rag.registry got entry Black Myth: Wukong -> D:\ProgramProjects\steam_games_comment_ai_analyzer\data\processed\reviews_black_myth_wukong.csv, building TfIdfRetriever
+2026-09-23 17:58:14,139 INFO rag.retriever building tfidf index for reviews_black_myth_wukong.csv (2194 docs)
+2026-09-23 17:58:14,484 INFO rag.retriever tfidf ready: vocab=50000, matrix=(2194, 50000)
+2026-09-23 17:58:14,484 INFO rag.registry TfIdfRetriever ready for Black Myth: Wukong
+2026-09-23 17:58:14,484 INFO app retriever loaded for Black Myth: Wukong, building agent
+2026-09-23 17:58:14,484 INFO app agent built for Black Myth: Wukong
+2026-09-23 17:58:14,484 INFO app agent ready, calling llm question='worth buying?' game=Black Myth: Wukong top_k=3
+2026-09-23 17:58:16,483 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 17:58:16] "POST /ask HTTP/1.1" 200 -
+2026-09-23 17:58:23,760 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5092
+2026-09-23 17:58:23,760 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 17:58:25,822 INFO app POST /ask raw=87 bytes ct=application/json charset=None
+2026-09-23 17:58:25,823 INFO app manual json ok: keys=['question', 'game', 'top_k', 'agent']
+2026-09-23 17:58:25,823 INFO app get_agent(Black Myth: Wukong) start
+2026-09-23 17:58:25,823 INFO app loading retriever for Black Myth: Wukong
+2026-09-23 17:58:25,919 INFO rag.registry ensure_loaded done for Black Myth: Wukong, retrievers cached=0
+2026-09-23 17:58:25,919 INFO rag.registry about to acquire lock
+2026-09-23 17:58:25,919 INFO rag.registry lock acquired, check cache
+2026-09-23 17:58:25,919 INFO rag.registry cache miss, get_entry
+2026-09-23 17:58:25,919 INFO rag.registry get_entry(Black Myth: Wukong) called
+2026-09-23 17:58:25,919 INFO rag.registry get_entry ensured, entries keys=['Black Myth: Wukong', 'ELDEN RING', 'Red Dead Redemption 2']
+2026-09-23 17:58:25,919 INFO rag.registry get_entry returning for Black Myth: Wukong
+2026-09-23 17:58:25,919 INFO rag.registry got entry Black Myth: Wukong -> D:\ProgramProjects\steam_games_comment_ai_analyzer\data\processed\reviews_black_myth_wukong.csv, building TfIdfRetriever
+2026-09-23 17:58:25,942 INFO rag.retriever building tfidf index for reviews_black_myth_wukong.csv (2194 docs)
+2026-09-23 17:58:26,284 INFO rag.retriever tfidf ready: vocab=50000, matrix=(2194, 50000)
+2026-09-23 17:58:26,284 INFO rag.registry TfIdfRetriever ready for Black Myth: Wukong
+2026-09-23 17:58:26,284 INFO app retriever loaded for Black Myth: Wukong, building agent
+2026-09-23 17:58:26,285 INFO app agent built for Black Myth: Wukong
+2026-09-23 17:58:26,285 INFO app agent ready, calling llm question='worth buying?' game=Black Myth: Wukong top_k=3
+2026-09-23 17:58:28,285 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 17:58:28] "POST /ask HTTP/1.1" 200 -
+2026-09-23 17:59:09,984 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:51278
+2026-09-23 17:59:09,984 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 17:59:10,403 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 17:59:10] "GET /health HTTP/1.1" 200 -
+2026-09-23 17:59:10,407 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 17:59:10] "GET /health HTTP/1.1" 200 -
+2026-09-23 17:59:10,410 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 17:59:10] "GET /games HTTP/1.1" 200 -
+2026-09-23 17:59:10,420 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 17:59:10] "GET / HTTP/1.1" 200 -
+2026-09-23 17:59:10,426 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 17:59:10] "[31m[1mPOST /ask HTTP/1.1[0m" 400 -
+2026-09-23 17:59:10,429 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 17:59:10] "[33mPOST /ask HTTP/1.1[0m" 404 -
+2026-09-23 17:59:10,475 INFO rag.retriever building tfidf index for reviews_black_myth_wukong.csv (2194 docs)
+2026-09-23 17:59:10,806 INFO rag.retriever tfidf ready: vocab=50000, matrix=(2194, 50000)
+2026-09-23 17:59:13,048 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 17:59:13] "POST /ask HTTP/1.1" 200 -
+2026-09-23 17:59:13,993 INFO rag.agent agent plan: worth buying and is it well optimized? -> ['game worth buying', 'game optimization performance']
+2026-09-23 17:59:16,450 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 17:59:16] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:00:43,136 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:51348
+2026-09-23 18:00:43,136 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 18:00:43,504 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:00:43] "GET /health HTTP/1.1" 200 -
+2026-09-23 18:00:43,530 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:00:43] "GET /health HTTP/1.1" 200 -
+2026-09-23 18:00:43,546 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:00:43] "GET /games HTTP/1.1" 200 -
+2026-09-23 18:00:43,554 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:00:43] "GET / HTTP/1.1" 200 -
+2026-09-23 18:00:43,578 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:00:43] "[31m[1mPOST /ask HTTP/1.1[0m" 400 -
+2026-09-23 18:00:43,594 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:00:43] "[33mPOST /ask HTTP/1.1[0m" 404 -
+2026-09-23 18:00:43,623 INFO rag.retriever building tfidf index for reviews_black_myth_wukong.csv (2194 docs)
+2026-09-23 18:00:43,996 INFO rag.retriever tfidf ready: vocab=50000, matrix=(2194, 50000)
+2026-09-23 18:00:46,362 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:00:46] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:00:47,635 INFO rag.agent agent plan: worth buying and is it well optimized? -> ['worth buying', 'well optimized']
+2026-09-23 18:00:51,158 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:00:51] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:02:00,785 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.119.60:5000
+2026-09-23 18:02:00,785 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 18:02:00,793 INFO werkzeug  * Restarting with stat
+2026-09-23 18:02:03,139 WARNING werkzeug  * Debugger is active!
+2026-09-23 18:02:03,147 INFO werkzeug  * Debugger PIN: 364-269-245
+2026-09-23 18:02:03,648 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:02:03] "GET / HTTP/1.1" 200 -
+2026-09-23 18:02:28,906 INFO rag.retriever building tfidf index for reviews_black_myth_wukong.csv (2194 docs)
+2026-09-23 18:02:29,254 INFO rag.retriever tfidf ready: vocab=50000, matrix=(2194, 50000)
+2026-09-23 18:02:30,694 INFO rag.agent agent plan: 这游戏画面怎么样，有没有什么闪光点，大家的态度如何？ -> ['游戏画面 画质 评价', '游戏 闪光点 亮点', 'Steam 玩家 态度 评价']
+2026-09-23 18:02:33,937 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:02:33] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:03:23,475 INFO rag.retriever building tfidf index for reviews_red_dead_redemption_2.csv (4154 docs)
+2026-09-23 18:03:24,122 INFO rag.retriever tfidf ready: vocab=50000, matrix=(4154, 50000)
+2026-09-23 18:03:25,399 INFO rag.agent agent plan: 你是来拉屎的吧？ -> ['Steam 评论 拉屎', 'Steam 评论 梗', 'Steam 评论 幽默']
+2026-09-23 18:03:25,422 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:03:25] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
+2026-09-23 18:03:28,904 INFO rag.agent agent plan: 你是来拉屎的吧？ -> ['Steam 评论 拉屎 梗', 'Steam 评论 拉屎 含义', 'Steam 评论 拉屎 出处']
+2026-09-23 18:03:28,922 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:03:28] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
+2026-09-23 18:03:34,819 INFO rag.agent agent plan: 好好好 -> ['好好好 Steam 评论']
+2026-09-23 18:03:34,837 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:03:34] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
+2026-09-23 18:03:40,661 INFO rag.agent agent plan: 好好好？ -> ['Steam 评论 好好好 含义', 'Steam 评论 好好好 用法', 'Steam 评论 好好好 梗']
+2026-09-23 18:03:40,679 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:03:40] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
+2026-09-23 18:04:27,311 INFO rag.agent agent plan: 你是谁？ -> ['身份', '角色', '功能']
+2026-09-23 18:04:28,644 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:04:28] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:04:36,351 INFO rag.agent agent plan: 是谁？ -> ['Steam 评论 用户 身份', 'Steam 评论 作者 信息']
+2026-09-23 18:04:36,369 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:04:36] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
+2026-09-23 18:04:43,482 INFO rag.agent agent plan: 你 -> ['Steam 评论 问题']
+2026-09-23 18:04:43,500 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:04:43] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
+2026-09-23 18:04:48,278 INFO rag.agent agent plan: 他们 -> ['Steam 评论 用户 群体', 'Steam 评论 玩家 类型', 'Steam 评论 用户 特征']
+2026-09-23 18:04:48,296 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:04:48] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
+2026-09-23 18:07:49,319 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:51644
+2026-09-23 18:07:49,319 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 18:07:49,650 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:07:49] "GET /health HTTP/1.1" 200 -
+2026-09-23 18:07:49,654 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:07:49] "GET /health HTTP/1.1" 200 -
+2026-09-23 18:07:49,658 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:07:49] "GET /games HTTP/1.1" 200 -
+2026-09-23 18:07:49,665 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:07:49] "GET / HTTP/1.1" 200 -
+2026-09-23 18:07:49,671 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:07:49] "[31m[1mPOST /ask HTTP/1.1[0m" 400 -
+2026-09-23 18:07:49,674 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:07:49] "[33mPOST /ask HTTP/1.1[0m" 404 -
+2026-09-23 18:07:49,726 INFO rag.retriever building tfidf index for reviews_black_myth_wukong.csv (2194 docs)
+2026-09-23 18:07:50,105 INFO rag.retriever tfidf ready: vocab=50000, matrix=(2194, 50000)
+2026-09-23 18:07:52,287 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:07:52] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:07:53,567 INFO rag.agent agent plan: worth buying and is it well optimized? -> ['game worth buying', 'game optimization performance']
+2026-09-23 18:07:56,127 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:07:56] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:07:57,726 INFO rag.agent agent plan: 你是来拉屎的吧 -> []
+2026-09-23 18:07:57,727 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:07:57] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:07:57,731 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:07:57] "[31m[1mPOST /ask HTTP/1.1[0m" 400 -
+2026-09-23 18:07:57,735 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:07:57] "[31m[1mPOST /ask HTTP/1.1[0m" 400 -
+2026-09-23 18:07:57,739 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:07:57] "[31m[1mPOST /ask HTTP/1.1[0m" 400 -
+2026-09-23 18:07:59,163 INFO rag.agent agent plan: 好好好 -> []
+2026-09-23 18:07:59,163 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:07:59] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:08:00,613 INFO rag.agent agent plan: 是谁 -> []
+2026-09-23 18:08:00,613 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:08:00] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:08:01,782 INFO rag.agent agent plan: 你好 -> []
+2026-09-23 18:08:01,783 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:08:01] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:08:03,204 INFO rag.agent agent plan: fuck you -> []
+2026-09-23 18:08:03,204 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:08:03] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:08:33,168 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5101
+2026-09-23 18:08:33,168 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 18:08:35,379 INFO rag.retriever building tfidf index for reviews_black_myth_wukong.csv (2194 docs)
+2026-09-23 18:08:35,773 INFO rag.retriever tfidf ready: vocab=50000, matrix=(2194, 50000)
+2026-09-23 18:08:37,038 INFO rag.agent agent plan: 你是来拉屎的吧 -> []
+2026-09-23 18:08:37,039 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:08:37] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:08:37,906 INFO rag.agent agent plan: 好好好 -> []
+2026-09-23 18:08:37,906 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:08:37] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:08:39,349 INFO rag.agent agent plan: 是谁 -> []
+2026-09-23 18:08:39,350 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:08:39] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:08:40,937 INFO rag.agent agent plan: 你好 -> []
+2026-09-23 18:08:40,937 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:08:40] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:09:20,160 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:51755
+2026-09-23 18:09:20,160 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 18:09:20,516 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:09:20] "GET /health HTTP/1.1" 200 -
+2026-09-23 18:09:20,538 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:09:20] "GET /health HTTP/1.1" 200 -
+2026-09-23 18:09:20,543 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:09:20] "GET /games HTTP/1.1" 200 -
+2026-09-23 18:09:20,551 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:09:20] "GET / HTTP/1.1" 200 -
+2026-09-23 18:09:20,556 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:09:20] "[31m[1mPOST /ask HTTP/1.1[0m" 400 -
+2026-09-23 18:09:20,570 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:09:20] "[33mPOST /ask HTTP/1.1[0m" 404 -
+2026-09-23 18:09:20,610 INFO rag.retriever building tfidf index for reviews_black_myth_wukong.csv (2194 docs)
+2026-09-23 18:09:20,990 INFO rag.retriever tfidf ready: vocab=50000, matrix=(2194, 50000)
+2026-09-23 18:09:22,944 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:09:22] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:09:24,103 INFO rag.agent agent plan: worth buying and is it well optimized? -> ['worth buying', 'well optimized']
+2026-09-23 18:09:26,972 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:09:26] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:09:28,144 INFO rag.agent agent plan: 你是来拉屎的吧 -> []
+2026-09-23 18:09:28,144 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:09:28] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:09:28,149 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:09:28] "[31m[1mPOST /ask HTTP/1.1[0m" 400 -
+2026-09-23 18:09:28,153 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:09:28] "[31m[1mPOST /ask HTTP/1.1[0m" 400 -
+2026-09-23 18:09:28,179 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:09:28] "[31m[1mPOST /ask HTTP/1.1[0m" 400 -
+2026-09-23 18:09:29,613 INFO rag.agent agent plan: 好好好 -> []
+2026-09-23 18:09:29,613 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:09:29] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:09:30,552 INFO rag.agent agent plan: 是谁 -> []
+2026-09-23 18:09:30,553 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:09:30] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:09:31,498 INFO rag.agent agent plan: 你好 -> []
+2026-09-23 18:09:31,498 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:09:31] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:09:32,633 INFO rag.agent agent plan: fuck you -> []
+2026-09-23 18:09:32,633 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:09:32] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:10:06,509 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.119.60:5000
+2026-09-23 18:10:06,509 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 18:10:06,512 INFO werkzeug  * Restarting with stat
+2026-09-23 18:10:08,596 WARNING werkzeug  * Debugger is active!
+2026-09-23 18:10:08,603 INFO werkzeug  * Debugger PIN: 364-269-245
+2026-09-23 18:10:33,027 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:10:33] "GET / HTTP/1.1" 200 -
+2026-09-23 18:10:40,013 INFO rag.retriever building tfidf index for reviews_black_myth_wukong.csv (2194 docs)
+2026-09-23 18:10:40,357 INFO rag.retriever tfidf ready: vocab=50000, matrix=(2194, 50000)
+2026-09-23 18:10:41,756 INFO rag.agent agent plan: oihiEFWQQQQQQQQQQQQQQQGBDSjGHADSIOGHAUGHAWVBADSOVHGAEWGEWBERJUEHJTDRYEKTHNBDSBFDSBNSEGHEWB -> []
+2026-09-23 18:10:41,756 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:10:41] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:11:13,417 INFO rag.agent agent plan: 这有LGBT倾向吗？ -> ['LGBT 标签', 'LGBT 评论', 'LGBT 内容']
+2026-09-23 18:11:23,044 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:11:23] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:11:43,884 INFO rag.agent agent plan: 你的介绍里面有什么问题？ -> []
+2026-09-23 18:11:43,885 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:11:43] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:14:00,606 INFO werkzeug  * Detected change in 'D:\\ProgramProjects\\steam_games_comment_ai_analyzer\\rag\\agent.py', reloading
+2026-09-23 18:14:00,949 INFO werkzeug  * Restarting with stat
+2026-09-23 18:14:03,254 WARNING werkzeug  * Debugger is active!
+2026-09-23 18:14:03,261 INFO werkzeug  * Debugger PIN: 364-269-245
+2026-09-23 18:14:06,575 INFO werkzeug  * Detected change in 'D:\\ProgramProjects\\steam_games_comment_ai_analyzer\\rag\\agent.py', reloading
+2026-09-23 18:14:06,892 INFO werkzeug  * Restarting with stat
+2026-09-23 18:14:09,128 WARNING werkzeug  * Debugger is active!
+2026-09-23 18:14:09,136 INFO werkzeug  * Debugger PIN: 364-269-245
+2026-09-23 18:14:13,947 INFO werkzeug  * Detected change in 'D:\\ProgramProjects\\steam_games_comment_ai_analyzer\\rag\\agent.py', reloading
+2026-09-23 18:14:14,222 INFO werkzeug  * Restarting with stat
+2026-09-23 18:14:16,471 WARNING werkzeug  * Debugger is active!
+2026-09-23 18:14:16,479 INFO werkzeug  * Debugger PIN: 364-269-245
+2026-09-23 18:14:26,791 INFO werkzeug  * Detected change in 'D:\\ProgramProjects\\steam_games_comment_ai_analyzer\\app.py', reloading
+2026-09-23 18:14:27,081 INFO werkzeug  * Restarting with stat
+2026-09-23 18:14:29,877 WARNING werkzeug  * Debugger is active!
+2026-09-23 18:14:29,885 INFO werkzeug  * Debugger PIN: 364-269-245
+2026-09-23 18:14:32,067 INFO werkzeug  * Detected change in 'D:\\ProgramProjects\\steam_games_comment_ai_analyzer\\app.py', reloading
+2026-09-23 18:14:32,353 INFO werkzeug  * Restarting with stat
+2026-09-23 18:14:34,660 WARNING werkzeug  * Debugger is active!
+2026-09-23 18:14:34,668 INFO werkzeug  * Debugger PIN: 364-269-245
+2026-09-23 18:14:36,712 INFO werkzeug  * Detected change in 'D:\\ProgramProjects\\steam_games_comment_ai_analyzer\\app.py', reloading
+2026-09-23 18:14:37,167 INFO werkzeug  * Restarting with stat
+2026-09-23 18:14:39,704 WARNING werkzeug  * Debugger is active!
+2026-09-23 18:14:39,715 INFO werkzeug  * Debugger PIN: 364-269-245
+2026-09-23 18:15:16,492 INFO werkzeug  * Detected change in 'D:\\ProgramProjects\\steam_games_comment_ai_analyzer\\tests\\test_agent.py', reloading
+2026-09-23 18:15:16,767 INFO werkzeug  * Restarting with stat
+2026-09-23 18:15:19,380 WARNING werkzeug  * Debugger is active!
+2026-09-23 18:15:19,388 INFO werkzeug  * Debugger PIN: 364-269-245
+2026-09-23 18:15:24,246 INFO werkzeug  * Detected change in 'D:\\ProgramProjects\\steam_games_comment_ai_analyzer\\tests\\test_smoke.py', reloading
+2026-09-23 18:15:24,794 INFO werkzeug  * Restarting with stat
+2026-09-23 18:15:27,695 WARNING werkzeug  * Debugger is active!
+2026-09-23 18:15:27,705 INFO werkzeug  * Debugger PIN: 364-269-245
+2026-09-23 18:15:35,268 INFO werkzeug  * Detected change in 'D:\\ProgramProjects\\steam_games_comment_ai_analyzer\\tests\\test_cache.py', reloading
+2026-09-23 18:15:35,655 INFO werkzeug  * Restarting with stat
+2026-09-23 18:15:38,003 WARNING werkzeug  * Debugger is active!
+2026-09-23 18:15:38,011 INFO werkzeug  * Debugger PIN: 364-269-245
+2026-09-23 18:15:42,260 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:52084
+2026-09-23 18:15:42,260 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 18:15:42,457 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:15:42] "GET /health HTTP/1.1" 200 -
+2026-09-23 18:15:42,472 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:15:42] "GET /health HTTP/1.1" 200 -
+2026-09-23 18:15:42,476 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:15:42] "GET /games HTTP/1.1" 200 -
+2026-09-23 18:15:42,484 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:15:42] "GET / HTTP/1.1" 200 -
+2026-09-23 18:15:42,490 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:15:42] "[31m[1mPOST /ask HTTP/1.1[0m" 400 -
+2026-09-23 18:15:42,517 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:15:42] "[33mPOST /ask HTTP/1.1[0m" 404 -
+2026-09-23 18:15:42,546 INFO rag.retriever building tfidf index for reviews_black_myth_wukong.csv (2194 docs)
+2026-09-23 18:15:42,946 INFO rag.retriever tfidf ready: vocab=50000, matrix=(2194, 50000)
+2026-09-23 18:15:44,822 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:15:44] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:15:46,096 INFO rag.agent agent plan: worth buying and is it well optimized? -> ['worth buying', 'well optimized']
+2026-09-23 18:15:49,090 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:15:49] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:15:50,191 INFO rag.agent agent plan: 你是来拉屎的吧 -> []
+2026-09-23 18:15:50,191 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:15:50] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:15:50,196 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:15:50] "[31m[1mPOST /ask HTTP/1.1[0m" 400 -
+2026-09-23 18:15:50,220 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:15:50] "[31m[1mPOST /ask HTTP/1.1[0m" 400 -
+2026-09-23 18:15:50,235 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:15:50] "[31m[1mPOST /ask HTTP/1.1[0m" 400 -
+2026-09-23 18:15:51,605 INFO rag.agent agent plan: 好好好 -> []
+2026-09-23 18:15:51,606 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:15:51] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:15:52,816 INFO rag.agent agent plan: 是谁 -> []
+2026-09-23 18:15:52,817 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:15:52] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:15:54,415 INFO rag.agent agent plan: 你好 -> []
+2026-09-23 18:15:54,415 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:15:54] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:15:55,387 INFO rag.agent agent plan: fuck you -> []
+2026-09-23 18:15:55,388 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:15:55] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:15:57,978 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:15:57] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:15:57,981 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:15:57] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:16:00,988 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:16:00] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:16:03,395 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:16:03] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:16:03,399 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:16:03] "GET /cache/stats HTTP/1.1" 200 -
+2026-09-23 18:16:03,403 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:16:03] "POST /cache/clear HTTP/1.1" 200 -
+2026-09-23 18:16:04,584 INFO rag.agent agent plan: worth buying and how is the story? -> ['game worth buying', 'story quality']
+2026-09-23 18:16:08,225 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:16:08] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:22:14,040 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.119.60:5000
+2026-09-23 18:22:14,041 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 18:22:14,043 INFO werkzeug  * Restarting with stat
+2026-09-23 18:22:16,235 WARNING werkzeug  * Debugger is active!
+2026-09-23 18:22:16,243 INFO werkzeug  * Debugger PIN: 364-269-245
+2026-09-23 18:22:16,712 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:22:16] "GET / HTTP/1.1" 200 -
+2026-09-23 18:22:16,787 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:22:16] "GET /cache/stats HTTP/1.1" 200 -
+2026-09-23 18:22:36,638 INFO rag.retriever building tfidf index for reviews_black_myth_wukong.csv (2194 docs)
+2026-09-23 18:22:36,972 INFO rag.retriever tfidf ready: vocab=50000, matrix=(2194, 50000)
+2026-09-23 18:22:38,371 INFO rag.agent agent plan: 综合评价一下 -> []
+2026-09-23 18:22:38,371 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:22:38] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:22:43,808 INFO rag.agent agent plan: 综合评价一下这个游戏 -> ['游戏 综合评价', '游戏 优缺点', '游戏 玩家评价']
+2026-09-23 18:22:46,456 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:22:46] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:23:20,191 INFO rag.agent agent plan: 综合评价一下这个游戏 -> ['游戏 综合评价', '游戏 优缺点', '游戏 玩家评价']
+2026-09-23 18:23:24,262 INFO rag.agent reflection: adding sub_questions=['游戏 剧情 评价', '游戏 销量 口碑']
+2026-09-23 18:23:28,288 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:23:28] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:26:03,992 INFO werkzeug  * Detected change in 'D:\\ProgramProjects\\steam_games_comment_ai_analyzer\\scripts\\research_lang.py', reloading
+2026-09-23 18:26:04,271 INFO werkzeug  * Restarting with stat
+2026-09-23 18:26:06,890 WARNING werkzeug  * Debugger is active!
+2026-09-23 18:26:06,897 INFO werkzeug  * Debugger PIN: 364-269-245
+2026-09-23 18:58:02,561 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:55289
+2026-09-23 18:58:02,561 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-09-23 18:58:02,876 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:58:02] "GET /health HTTP/1.1" 200 -
+2026-09-23 18:58:02,879 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:58:02] "GET /health HTTP/1.1" 200 -
+2026-09-23 18:58:02,883 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:58:02] "GET /games HTTP/1.1" 200 -
+2026-09-23 18:58:02,905 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:58:02] "GET / HTTP/1.1" 200 -
+2026-09-23 18:58:02,931 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:58:02] "[31m[1mPOST /ask HTTP/1.1[0m" 400 -
+2026-09-23 18:58:02,946 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:58:02] "[33mPOST /ask HTTP/1.1[0m" 404 -
+2026-09-23 18:58:02,988 INFO rag.retriever building tfidf index for reviews_black_myth_wukong.csv (2194 docs)
+2026-09-23 18:58:03,344 INFO rag.retriever tfidf ready: vocab=50000, matrix=(2194, 50000)
+2026-09-23 18:58:05,369 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:58:05] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:58:07,031 INFO rag.agent agent plan: worth buying and is it well optimized? -> ['Steam review worth buying', 'game optimization performance']
+2026-09-23 18:58:09,857 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:58:09] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:58:11,449 INFO rag.agent agent plan: 你是来拉屎的吧 -> []
+2026-09-23 18:58:11,452 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:58:11] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:58:11,470 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:58:11] "[31m[1mPOST /ask HTTP/1.1[0m" 400 -
+2026-09-23 18:58:11,485 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:58:11] "[31m[1mPOST /ask HTTP/1.1[0m" 400 -
+2026-09-23 18:58:11,502 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:58:11] "[31m[1mPOST /ask HTTP/1.1[0m" 400 -
+2026-09-23 18:58:12,658 INFO rag.agent agent plan: 好好好 -> []
+2026-09-23 18:58:12,658 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:58:12] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:58:13,720 INFO rag.agent agent plan: 是谁 -> []
+2026-09-23 18:58:13,720 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:58:13] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:58:15,290 INFO rag.agent agent plan: 你好 -> []
+2026-09-23 18:58:15,290 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:58:15] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:58:16,570 INFO rag.agent agent plan: fuck you -> []
+2026-09-23 18:58:16,570 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:58:16] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:58:18,593 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:58:18] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:58:18,616 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:58:18] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:58:20,358 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:58:20] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:58:22,044 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:58:22] "POST /ask HTTP/1.1" 200 -
+2026-09-23 18:58:22,048 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:58:22] "GET /cache/stats HTTP/1.1" 200 -
+2026-09-23 18:58:22,074 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:58:22] "POST /cache/clear HTTP/1.1" 200 -
+2026-09-23 18:58:23,290 INFO rag.agent agent plan: worth buying and how is the story? -> ['game worth buying', 'story quality']
+2026-09-23 18:58:26,737 INFO rag.agent reflection: adding sub_questions=['Black Myth Wukong story review', 'Black Myth Wukong plot summary']
+2026-09-23 18:58:29,059 INFO werkzeug 127.0.0.1 - - [23/Sep/2026 18:58:29] "POST /ask HTTP/1.1" 200 -
